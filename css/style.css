@@ -887,7 +887,7 @@
     @media screen and (max-width:400px) {
         body {
             /* background: url(../img/sendero.jpg); */
-            background-size: 100%;
+            background-size: 105%;
             background-image: url(../img/sendero.jpg);
         }
         .menu img {
@@ -938,7 +938,7 @@
         }
         .carousel-item .carousel-caption {
             top: 15%;
-            margin: 110px 10px;
+            margin: 120px 10px;
             width: 260px;
         }
         .carousel-item .carousel-caption p,
@@ -949,7 +949,7 @@
             padding: 20px;
         }
         .carousel-item {
-            height: 30rem;
+            height: 31rem;
         }
         /* .carousel-item .carousel-caption {
             background: rgba(4, 180, 4, .6);
