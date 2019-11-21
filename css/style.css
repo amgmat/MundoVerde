@@ -886,8 +886,9 @@
     
     @media screen and (max-width:400px) {
         body {
+            /* background: url(../img/sendero.jpg); */
             background-size: 100%;
-            background-attachment: local;
+            background-image: url(../img/sendero.jpg);
         }
         .menu img {
             width: 100px;
@@ -936,13 +937,44 @@
             letter-spacing: 0px;
         }
         .carousel-item .carousel-caption {
-            top: 27%;
-            margin: 120px -20px;
+            top: 15%;
+            margin: 110px 10px;
+            width: 260px;
         }
         .carousel-item .carousel-caption p,
         .carousel-item .carousel-caption span {
-            padding: 5px;
+            padding: 4px;
         }
+        .carousel .carousel-indicators {
+            padding: 20px;
+        }
+        .carousel-item {
+            height: 30rem;
+        }
+        /* .carousel-item .carousel-caption {
+            background: rgba(4, 180, 4, .6);
+            margin: 100px auto;
+            top: 25%;
+            width: 600px;
+            z-index: 1000;
+        } */
+        /* .carousel-item .carousel-caption p,
+    .carousel-item .carousel-caption span {
+        padding: 20px;
+        font-size: 30px;
+    } */
+        /* .carousel-item .carousel-caption span a {
+        color: #fff;
+        font-size: 22px;
+        padding: 5px;
+        border: 2px solid #fff;
+    } */
+        /* .carousel-item .carousel-caption span a:hover {
+        text-decoration: none;
+        background: #fff;
+        color: rgba(4, 180, 4, 1);
+        cursor: pointer;
+    } */
         .contacto {
             padding: 20px;
             width: 320px;
@@ -970,7 +1002,24 @@
             font-size: 14px;
         }
         .carousel-item .carousel-caption {
-            margin: 120px -35px;
+            margin: 110px auto;
+            width: 230px;
+        }
+        .carousel-item .carousel-caption p,
+        .carousel-item .carousel-caption span {
+            padding: 2px;
+        }
+        .carousel .carousel-indicators {
+            padding: 20px;
+        }
+        .carousel-item .carousel-caption p,
+        .carousel-item .carousel-caption span {
+            padding: 6px;
+            font-size: 16px;
+        }
+        .carousel-item .carousel-caption span a {
+            font-size: 14px;
+            padding: 2px;
         }
         .informacion img {
             width: 240px;
