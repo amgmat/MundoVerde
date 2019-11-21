@@ -885,6 +885,13 @@
     }
     
     @media screen and (max-width:400px) {
+        body {
+            background-size: 100%;
+            background-attachment: local;
+        }
+        .menu img {
+            width: 100px;
+        }
         .nombre {
             margin: 5px;
             padding: 5px;
