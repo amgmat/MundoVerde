@@ -487,8 +487,8 @@
         width: 75%;
         margin: 0 auto;
         text-align: center;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 190px;
+        padding-bottom: 110px;
     }
     
     .informacion img {
@@ -964,7 +964,7 @@
             border-radius: 5px;
         }
         .informacion {
-            padding-top: 77px;
+            padding-top: 90px;
             padding-bottom: 20px;
         }
         .informacion img {
@@ -1003,10 +1003,10 @@
             font-size: 14px;
             padding: 2px;
         }
-        .informacion img {
+        /* .informacion img {
             width: 240px;
             padding: 5px;
-        }
+        } */
         .informacion h2 {
             font-size: 22px;
         }
