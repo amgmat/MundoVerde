@@ -27,6 +27,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        z-index: 1000;
     }
     
     .menu2 {
@@ -357,7 +358,7 @@
         margin: 100px auto;
         top: 25%;
         width: 600px;
-        z-index: 1000;
+        z-index: 100;
     }
     
     .carousel-item .carousel-caption p,
