@@ -941,6 +941,12 @@ footer .redes-sociales h4 {
     .carousel-item .carousel-caption {
         width: 400px;
     }
+    .informacion h2 {
+        font-size: 22px;
+    }
+    .informacion p {
+        font-size: 18px;
+    }
     .redes {
         position: fixed;
         top: 60%;
