@@ -170,6 +170,7 @@ header {
 }
 
 .nombre a {
+    font-family: 'Lobster Two', 'Playball', 'Galada', 'Niconne', Arial;
     position: relative;
     padding: 15px 50px;
     text-decoration: none;
@@ -178,16 +179,43 @@ header {
     letter-spacing: 2px;
     overflow: hidden;
     transition: 0.5s;
+    z-index: 1000;
     /* background: rgba(255, 255, 255, .6); */
     /* box-shadow: 0 5px 5px rgba(0, 0, 0, .2); */
+    /* color: #000;
+    background: #fff;
+    mix-blend-mode: multiply; */
 }
 
-.nombre a:before {
+
+/* h2 {
+    display: inline-block;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: multiply;
+    position: relative;
+}
+
+h2:before {
     content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#A3C23C, #7C9439, #609B40);
+    mix-blend-mode: screen; //<-- atento a esta linea//
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
+} */
+
+.nombre a:before {
+    content: '';
+    /* background: linear-gradient(#A3C23C, #7C9439, #609B40);
+    mix-blend-mode: screen; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
 }
 
@@ -199,6 +227,12 @@ header {
     width: 100%;
     height: 100%;
     fill: transparent;
+}
+
+.nombre a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(28, 201, 4, .7);
 }
 
 a svg rect {
