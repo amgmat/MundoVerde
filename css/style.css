@@ -6,8 +6,8 @@
 
 body {
     background: url(../img/invernadero.jpg);
-    background-size: 120%;
-    /* background-attachment: fixed; */
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
