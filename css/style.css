@@ -947,6 +947,12 @@ footer .redes-sociales h4 {
     .informacion p {
         font-size: 18px;
     }
+    .servicios h2 {
+        font-size: 24px;
+    }
+    .servicios p {
+        font-size: 18px;
+    }
     .redes {
         position: fixed;
         top: 60%;
@@ -1181,7 +1187,7 @@ footer .redes-sociales h4 {
         /* padding-bottom: 20px; */
     }
     .informacion h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .informacion p {
         font-size: 16px;
@@ -1189,6 +1195,12 @@ footer .redes-sociales h4 {
     .informacion img {
         width: 270px;
         /* padding: 5px; */
+    }
+    .servicios h2 {
+        font-size: 22px;
+    }
+    .servicios p {
+        font-size: 16px;
     }
     .construccion img,
     .mantenimiento img,
@@ -1224,9 +1236,6 @@ footer .redes-sociales h4 {
     .informacion img {
         width: 240px;
         /* padding: 5px; */
-    }
-    .servicios p {
-        font-size: 16px;
     }
     .construccion img,
     .mantenimiento img,
