@@ -187,6 +187,10 @@ header {
     mix-blend-mode: multiply; */
 }
 
+.nombre img {
+    width: 170px;
+}
+
 
 /* h2 {
     display: inline-block;
@@ -231,8 +235,8 @@ h2:before {
 
 .nombre a:hover {
     text-decoration: none;
-    color: #fff;
-    background: rgba(28, 201, 4, .7);
+    color: rgba(28, 201, 4, 1);
+    /* background: rgba(28, 201, 4, .7); */
 }
 
 a svg rect {
@@ -350,7 +354,7 @@ a svg rect {
     /* background: #fff; */
     width: 45px;
     height: 45px;
-    z-index: 1000;
+    z-index: 900;
 }
 
 .redes ul {
@@ -503,7 +507,7 @@ a svg rect {
 .productos {
     width: 100%;
     text-align: center;
-    background: #5FB404;
+    background: #ACFA58;
     /* background: url(../img/tunelv-min.jpg); */
     background-size: cover;
     padding: 20px;
@@ -513,7 +517,7 @@ a svg rect {
 }
 
 .productos h3 {
-    color: #fff;
+    color: rgba(28, 201, 4, 1);
 }
 
 .productos p {
@@ -670,7 +674,7 @@ article p a:hover {
 }
 
 .especificacion {
-    background: #5FB404;
+    background: #ACFA58;
     /* background: url(../img/tunelv-min.jpg); */
     background-size: 100%;
     text-align: center;
@@ -866,10 +870,25 @@ footer .redes-sociales h4 {
         padding: 16px;
         text-align: center;
         font-size: 1em;
+        padding: 6px 4px;
     }
-    /* .menu .enlaces a:hover {
-        padding-top: 5px;
-        padding-bottom: 5px;
+    /* .nombre img {
+        margin-top: -20px;
+    }
+    .nombre a:before {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .nombre a svg,
+    .nombre a svg rect {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        fill: transparent;
     } */
     header .menu {
         flex-direction: column;
@@ -892,6 +911,9 @@ footer .redes-sociales h4 {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+    header .menu .enlaces a {
+        margin-top: 10px;
     }
     .nombre {
         padding-left: 20px;
@@ -1171,6 +1193,10 @@ footer .redes-sociales h4 {
     }
     .carousel-item {
         height: 32rem;
+    }
+    .redes {
+        position: fixed;
+        top: 47%;
     }
     .servicios {
         padding-top: 160px;
