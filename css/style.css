@@ -474,11 +474,12 @@ a svg rect {
 }
 
 .carousel-item .carousel-caption {
-    background: rgba(4, 180, 4, .6);
+    background: rgba(4, 180, 4, .4);
     margin: 100px auto;
     top: 25%;
     width: 600px;
     z-index: 100;
+    border-radius: 10px;
 }
 
 .carousel-item .carousel-caption p,
@@ -507,7 +508,8 @@ a svg rect {
 .productos {
     width: 100%;
     text-align: center;
-    background: #ACFA58;
+    /* background: #ACFA58; */
+    background: #D0FA58;
     /* background: url(../img/tunelv-min.jpg); */
     background-size: cover;
     padding: 20px;
@@ -675,7 +677,8 @@ article p a:hover {
 }
 
 .especificacion {
-    background: #ACFA58;
+    /* background: #ACFA58; */
+    background: #D0FA58;
     /* background: url(../img/tunelv-min.jpg); */
     background-size: 100%;
     text-align: center;
