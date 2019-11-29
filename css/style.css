@@ -517,7 +517,8 @@ a svg rect {
 }
 
 .productos h3 {
-    color: rgba(28, 201, 4, 1);
+    /* color: rgba(28, 201, 4, 1); */
+    color: #fff;
 }
 
 .productos p {
