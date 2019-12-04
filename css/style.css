@@ -157,6 +157,39 @@ header {
     transform: translateY(-100%);
 }
 
+.main {
+    height: 380px;
+}
+
+.main h1 {
+    margin: 280px 0 20px 20px;
+    text-align: center;
+    padding: 0;
+    color: #fff;
+    font-size: 4em;
+    text-shadow: 2px 4px 0 rgba(0, 0, 0, .8);
+}
+
+.main span:before {
+    content: 'Creamos un espacio verde para ti';
+    animation: change infinite 12s;
+}
+
+@keyframes change {
+    0% {
+        content: 'Creamos un espacio verde para ti';
+    }
+    30% {
+        content: 'Creamos un espacio verde para ti';
+    }
+    62% {
+        content: 'Cuidamos tu jardin';
+    }
+    100% {
+        content: 'Contactanos y cotiza tu espacio verde';
+    }
+}
+
 .nombre {
     margin: 0;
     padding: 0;
@@ -519,8 +552,8 @@ a svg rect {
 }
 
 .productos h3 {
-    /* color: rgba(28, 201, 4, 1); */
-    color: #fff;
+    color: rgba(28, 201, 4, 1);
+    /* color: #fff; */
 }
 
 .productos p {
@@ -964,6 +997,10 @@ footer .redes-sociales h4 {
     .nombre a svg rect {
         display: none;
     }
+    .main h1 {
+        margin: 280px 0 15px 15px;
+        font-size: 2.5em;
+    }
     .carousel-item .carousel-caption {
         width: 400px;
     }
@@ -1180,6 +1217,13 @@ footer .redes-sociales h4 {
         font-size: 20px;
         letter-spacing: 0px;
     }
+    .main {
+        height: 300px;
+    }
+    .main h1 {
+        margin: 260px 0 25px 20px;
+        font-size: 2em;
+    }
     .carousel-item .carousel-caption {
         top: 16%;
         margin: 110px 5px;
@@ -1200,7 +1244,7 @@ footer .redes-sociales h4 {
     }
     .redes {
         position: fixed;
-        top: 47%;
+        top: 45%;
     }
     .servicios {
         padding-top: 160px;
@@ -1262,6 +1306,14 @@ footer .redes-sociales h4 {
     .carousel-item .carousel-caption span a {
         font-size: 14px;
         padding: 2px;
+    }
+    .main {
+        height: 240px;
+    }
+    .main h1 {
+        margin: 260px 0 40px 35px;
+        font-size: 1.5em;
+        text-shadow: 1px 2px 0 rgba(0, 0, 0, .8);
     }
     .informacion img {
         width: 240px;
