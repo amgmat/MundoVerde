@@ -549,7 +549,8 @@ a svg rect {
 .productos {
     width: 100%;
     text-align: center;
-    background: #BEF781;
+    /* background: #BEF781; */
+    background: #E1F5A9;
     background-size: cover;
     padding: 20px;
     border-top: 4px solid rgba(28, 201, 4, 1);
@@ -711,7 +712,8 @@ article p a:hover {
 }
 
 .especificacion {
-    background: #BEF781;
+    /* background: #BEF781; */
+    background: #E1F5A9;
     background-size: 100%;
     text-align: center;
     font-size: 20px;
