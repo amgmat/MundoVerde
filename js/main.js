@@ -8,13 +8,13 @@ $(document).ready(function() {
     // menu responsive
     // Calculamos el ancho de la página
     var ancho = $(window).width(),
-        nombre = $('#nombre'),
+        // nombre = $('#nombre'),
         enlaces = $('#enlaces'),
         btnMenu = $('#btn-menu'),
         icono = $('#btn-menu .icono');
 
     if (ancho < 900) {
-        nombre.hide();
+        // nombre.hide();
         enlaces.hide();
         btnMenu.show();
         icono.addClass('fa-bars');
@@ -24,7 +24,7 @@ $(document).ready(function() {
         e.preventDefault();
         enlaces.slideToggle();
         icono.toggleClass('fa-bars');
-        nombre.slideToggle();
+        // nombre.slideToggle();
         // icono.toggleClass('fa-times');
         // if (ancho < 400) {
         //     $('.main').animate({
@@ -38,14 +38,14 @@ $(document).ready(function() {
 
     $(window).on('resize', function() {
         if ($(this).width() > 900) {
-            nombre.show();
+            // nombre.show();
             enlaces.show();
             // btnMenu.hide();
             // icono.addClass('fa-times');
             // icono.removeClass('fa-bars');
 
         } else {
-            nombre.hide();
+            // nombre.hide();
             enlaces.hide();
             // icono.addClass('fa-bars');
             // icono.removeClass('fa-times');
