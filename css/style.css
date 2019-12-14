@@ -196,10 +196,10 @@ header {
         content: 'Creamos un espacio verde para ti';
     }
     62% {
-        content: 'Cuidamos tu jardin';
+        content: 'Cuidamos tu jardín';
     }
     100% {
-        content: 'Contactanos y cotiza tu espacio verde';
+        content: 'Contáctanos y cotiza tu espacio verde';
     }
 }
 
@@ -569,8 +569,10 @@ a svg rect {
     padding: 30px;
     background: rgba(255, 255, 255, .8);
     width: 400px;
-    margin: 0px auto;
-    padding-top: 100px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 40px;
+    padding-top: 10px;
     border-radius: 5px;
 }
 
@@ -663,12 +665,19 @@ form input[type="submit"]:hover {
     width: 75%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 135px;
-    padding-bottom: 100px;
+    padding-top: 140px;
+    padding-bottom: 80px;
 }
 
 .informacion h2 {
-    padding: 10px;
+    padding: 20px 0;
+    font-size: 45px;
+    text-shadow: 0 0 0.2em #000, 0 0 0.2em #000, 0 0 0.2em #000;
+}
+
+.informacion p {
+    font-size: 34px;
+    text-shadow: 0 0 0.2em #000, 0 0 0.2em #000, 0 0 0.2em #000;
 }
 
 
@@ -685,11 +694,17 @@ form input[type="submit"]:hover {
     padding-bottom: 152px;
 }
 
+.servicios p a {
+    font-size: 32px;
+    text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
+}
+
 .servicios p a:hover {
     padding: 4px;
     background: #fff;
     color: rgba(28, 201, 4, 1);
     text-decoration: none;
+    text-shadow: 0 0 0;
 }
 
 
@@ -767,6 +782,10 @@ article p a:hover {
 
 footer {
     background: #262626;
+    /* margin-top: 30px; */
+    /* bottom: auto; */
+    /* position: absolute; */
+    width: 100%;
 }
 
 footer .copy {
@@ -1001,6 +1020,13 @@ footer .redes-sociales h4 {
     .cotizacion img,
     .fumigacion img {
         height: 220px;
+    }
+    .informacion h2 {
+        padding: 20px 0;
+        font-size: 30px;
+    }
+    .informacion p {
+        font-size: 24px;
     }
 }
 
@@ -1259,7 +1285,7 @@ footer .redes-sociales h4 {
         /* text-shadow: 0 0 0 rgba(0, 0, 0, .8); */
         /* text-shadow: 0 0 0.2em rgba(28, 201, 4, 1), 0 0 0.2em rgba(28, 201, 4, 1); */
     }
-    .carousel-item .carousel-caption {
+    /* .carousel-item .carousel-caption {
         top: 16%;
         margin: 110px 5px;
         width: 250px;
@@ -1276,7 +1302,7 @@ footer .redes-sociales h4 {
     }
     .carousel-item {
         height: 32rem;
-    }
+    } */
     .redes {
         position: fixed;
         top: 45%;
