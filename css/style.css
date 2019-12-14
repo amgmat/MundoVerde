@@ -923,7 +923,7 @@ footer .redes-sociales h4 {
         align-items: center;
         padding: 20px 0;
     } */
-    .menu .btn-menu{
+    .menu .btn-menu {
         margin-top: -15px;
     }
     .menu .logo {
@@ -1000,11 +1000,9 @@ footer .redes-sociales h4 {
 }
 
 @media screen and (max-width: 800px) {
-
     .nombre {
         padding-left: 70px;
     }
-    
     .main h1 {
         margin: 280px 0 50px 45px;
         font-size: 3em;
@@ -1053,9 +1051,8 @@ footer .redes-sociales h4 {
     .nombre {
         margin-top: -50px;
         padding-left: 15px;
-    
     }
-    .menu .btn-menu{
+    .menu .btn-menu {
         margin-top: -25px;
     }
     .menu img {
@@ -1223,9 +1220,7 @@ footer .redes-sociales h4 {
         padding-top: 15px;
         font-size: 20px;
     }
-    
     .nombre {
-            
         padding-bottom: 10px;
         margin-top: -55px;
     }
@@ -1282,9 +1277,8 @@ footer .redes-sociales h4 {
         padding-top: 5px;
         padding-left: 5px;
     }
-    
     .menu #btn-menu {
-        padding-top: 20px;
+        padding-top: 15px;
     }
     .nombre {
         margin-top: -60px;
@@ -1300,8 +1294,6 @@ footer .redes-sociales h4 {
     .main h1 {
         margin: 260px 0 40px 35px;
         font-size: 2em;
-        /* text-shadow: 0 0 0 rgba(0, 0, 0, .8); */
-        /* text-shadow: 0 0 0.2em rgba(28, 201, 4, 1), 0 0 0.2em rgba(28, 201, 4, 1); */
     }
     /* .carousel-item .carousel-caption {
         top: 16%;
@@ -1330,9 +1322,9 @@ footer .redes-sociales h4 {
         padding-bottom: 80px;
     }
     .contacto {
-        padding: 20px;
+        padding: 5px 20px;
         width: 310px;
-        padding-top: 70px;
+        /* padding-top: 70px; */
         border-radius: 5px;
     }
     .informacion {
@@ -1349,10 +1341,7 @@ footer .redes-sociales h4 {
         width: 270px;
         /* padding: 5px; */
     }
-    .servicios h2 {
-        font-size: 22px;
-    }
-    .servicios p {
+    .servicios p a {
         font-size: 16px;
     }
     .construccion img,
