@@ -385,6 +385,18 @@ a svg rect {
 }
  */
 
+.subir {
+    /* position: fixed; */
+    font-size: 30px;
+    display: none;
+    padding: 0 10px;
+    background: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 15%;
+    right: 5%;
+}
+
 .redes {
     position: fixed;
     top: 40%;

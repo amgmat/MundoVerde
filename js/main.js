@@ -4,6 +4,23 @@ $(document).ready(function() {
     var headroom = new Headroom(header);
     headroom.init();
 
+    $('.subir').click(function() {
+        $('body, html').animate({
+            scrollTop: '0px'
+        }, 500);
+    });
+
+    $(window).scroll(function() {
+        console.log($(this).scrollTop());
+        if ($(this).scrollTop() > 1500) {
+            $('.subir').slideDown(1000);
+        } else {
+            $('.subir').slideUp(1000);
+        }
+    });
+    // }
+
+
 
     // menu responsive
     // Calculamos el ancho de la página
@@ -24,13 +41,7 @@ $(document).ready(function() {
         e.preventDefault();
         enlaces.slideToggle();
         icono.toggleClass('fa-bars');
-        // nombre.slideToggle();
-        // icono.toggleClass('fa-times');
-        // if (ancho < 400) {
-        //     $('.main').animate({
-        //         'padding-top': '45%'
-        //     }, 500);
-        // }
+
 
 
 
