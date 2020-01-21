@@ -5,11 +5,28 @@
 }
 
 body {
-    /* background-image: linear-gradient(rgba(108, 108, 106, .1), rgba(108, 108, 106, .1)), url(../img/invernadero.jpg); */
-    background-image: url(../img/invernadero.jpg);
-    /* background-image: linear-gradient(rgba(28, 201, 4, 0.2), rgba(28, 201, 4, 0.2)), url(../img/invernadero.jpg); */
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
+}
+
+.pagina-i {
+    background-image: url(../img/invernadero.jpg);
+}
+
+.pagina-c {
+    background-image: url(../img/camino.jpg);
+    /* background-image: url(../img/invernadero.jpg); */
+}
+
+.pagina-s {
+    background-image: url(../img/tunel.jpg);
+    /* background-image: url(../img/invernadero.jpg); */
+}
+
+.pagina-n {
+    background-image: url(../img/jardin-amplio.jpg);
 }
 
 
@@ -225,7 +242,7 @@ header {
 }
 
 .nombre img {
-    width: 170px;
+    width: 200px;
 }
 
 
@@ -565,8 +582,19 @@ a svg rect {
     font-size: 20px;
 }
 
-.bienvenida .titulo {
+.bienvenida h2 {
+    color: rgba(28, 201, 4, 1);
+    text-shadow: 0 0 0.1em #000, 0 0 0.1em #000, 0 0 0.1em #000;
+}
+
+.bienvenida .titulo,
+.bienvenida h2 {
     font-family: 'Galada';
+    /* font-size: 30px; */
+}
+
+.bienvenida img {
+    height: 140px;
 }
 
 .productos {
@@ -710,6 +738,16 @@ form input[type="submit"]:hover {
     padding-bottom: 100px;
 }
 
+.servicios .fa {
+    font-size: 20px;
+}
+
+
+/* .servicios p img {
+    border-radius: 5px;
+    background: #fff;
+} */
+
 .servicios p a {
     font-size: 32px;
     text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
@@ -773,13 +811,16 @@ article p a:hover {
     padding: 20px 0;
 }
 
-.construccion img,
-.mantenimiento img,
-.reconstruccion img {
-    width: 400px;
+.construccion img {
+    height: 550px;
 }
 
 .cotizacion img,
+.mantenimiento img,
+.reconstruccion img {
+    width: 340px;
+}
+
 .fumigacion img {
     height: 350px;
 }
@@ -911,13 +952,10 @@ footer .redes-sociales h4 {
         text-align: center;
         font-size: 1em;
     }
-    .construccion img,
+    .cotizacion img,
     .mantenimiento img,
     .reconstruccion img {
         width: 360px;
-    }
-    .cotizacion img {
-        height: 320px;
     }
 }
 
@@ -996,10 +1034,16 @@ footer .redes-sociales h4 {
     .menu img {
         margin: -20px 0 0 0;
     }
-    .construccion img,
+    .cotizacion img,
     .mantenimiento img,
     .reconstruccion img {
         width: 350px;
+    }
+    .construccion img {
+        height: 480px;
+    }
+    .fumigacion img {
+        height: 400px;
     }
 }
 
@@ -1010,6 +1054,9 @@ footer .redes-sociales h4 {
     .main h1 {
         margin: 280px 0 50px 45px;
         font-size: 3em;
+    }
+    .bienvenida img {
+        height: 90px;
     }
     .carousel-item .carousel-caption {
         margin: 100px auto;
@@ -1025,14 +1072,18 @@ footer .redes-sociales h4 {
         font-size: 20px;
         padding: 5px;
     }
-    .construccion img,
+    .construccion img {
+        height: 370px;
+    }
+    .cotizacion img {
+        width: 260px;
+    }
     .mantenimiento img,
     .reconstruccion img {
         width: 340px;
     }
-    .cotizacion img,
     .fumigacion img {
-        height: 220px;
+        height: 300px;
     }
     .informacion h2 {
         padding: 20px 0;
@@ -1046,7 +1097,11 @@ footer .redes-sociales h4 {
 @media screen and (max-width: 600px) {
     body {
         background-size: 100%;
-        /* background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/sendero.jpg); */
+    }
+    .pagina-i,
+    .pagina-c,
+    .pagina-s,
+    .pagina-n {
         background-image: url(../img/sendero.jpg);
     }
     header {
@@ -1070,9 +1125,6 @@ footer .redes-sociales h4 {
         margin: 280px 0 15px 15px;
         font-size: 2.5em;
     }
-    .bienvenida img {
-        width: 400px;
-    }
     .carousel-item .carousel-caption {
         width: 400px;
     }
@@ -1087,6 +1139,9 @@ footer .redes-sociales h4 {
     }
     .servicios p {
         font-size: 18px;
+    }
+    .servicios p a {
+        font-size: 26px;
     }
     .redes {
         position: fixed;
@@ -1214,6 +1269,24 @@ footer .redes-sociales h4 {
     .redes-sociales ul li:nth-child(2) a:after {
         background: #e4405f;
     }
+    .construccion img {
+        height: 340px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .bienvenida img {
+        height: 150px;
+    }
+    .construccion img {
+        height: 360px;
+    }
+    .fumigacion img {
+        height: 340px;
+    }
+    .cotizacion img {
+        width: 380px;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -1231,9 +1304,6 @@ footer .redes-sociales h4 {
         padding-bottom: 10px;
         margin-top: -55px;
     }
-    .bienvenida img {
-        width: 350px;
-    }
     .carousel-item .carousel-caption {
         /* margin: 100px auto; */
         top: 19%;
@@ -1250,6 +1320,12 @@ footer .redes-sociales h4 {
         font-size: 16px;
         padding: 5px;
     }
+    .servicios p a {
+        font-size: 22px;
+    }
+    /* .servicios .fa {
+        font-size: 12px;
+    } */
 }
 
 @media screen and (max-width:400px) {
@@ -1305,34 +1381,13 @@ footer .redes-sociales h4 {
         margin: 260px 0 40px 35px;
         font-size: 2em;
     }
-    .bienvenida img {
-        width: 300px;
-    }
-    /* .carousel-item .carousel-caption {
-        top: 16%;
-        margin: 110px 5px;
-        width: 250px;
-    }
-    .carousel-item .carousel-caption p,
-    .carousel-item .carousel-caption span {
-        padding: 2px;
-    }
-    .carousel-item .carousel-caption span a {
-        font-size: 14px;
-    }
-    .carousel .carousel-indicators {
-        padding: 30px;
-    }
-    .carousel-item {
-        height: 32rem;
-    } */
     .redes {
         position: fixed;
         top: 45%;
     }
     .servicios {
-        padding-top: 130px;
-        padding-bottom: 50px;
+        padding-top: 105px;
+        padding-bottom: 20px;
     }
     .contacto {
         padding: 5px 20px;
@@ -1355,9 +1410,12 @@ footer .redes-sociales h4 {
         /* padding: 5px; */
     }
     .servicios p a {
-        font-size: 16px;
+        font-size: 20px;
     }
-    .construccion img,
+    .servicios .fa {
+        font-size: 12px;
+    }
+    .cotizacion img,
     .mantenimiento img,
     .reconstruccion img {
         width: 310px;
@@ -1365,6 +1423,13 @@ footer .redes-sociales h4 {
 }
 
 @media screen and (max-width: 350px) {
+    body {
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        top: 0;
+    }
     .menu2 .enlaces a {
         font-size: 14px;
     }
@@ -1395,14 +1460,11 @@ footer .redes-sociales h4 {
         margin: 260px 0 40px 35px;
         font-size: 1.5em;
     }
-    .bienvenida img {
-        width: 260px;
-    }
     .informacion img {
         width: 240px;
         /* padding: 5px; */
     }
-    .construccion img,
+    .cotizacion img,
     .mantenimiento img,
     .reconstruccion img {
         width: 280px;
