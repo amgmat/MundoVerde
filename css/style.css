@@ -1099,12 +1099,14 @@ footer .redes-sociales h4 {
         background-size: 100%;
         background-repeat: no-repeat;
         position: absolute;
+        background-position-y: 0px;
     }
     .pagina-i,
     .pagina-c,
     .pagina-s,
     .pagina-n {
         background-image: url(../img/sendero.jpg);
+        /* height: 500px; */
     }
     header {
         padding: 10px 5px 0 0;
