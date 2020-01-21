@@ -1392,7 +1392,15 @@ footer .redes-sociales h4 {
     .servicios {
         padding-top: 105px;
         padding-bottom: 20px;
+        width: 85%;
     }
+    /* .servicios {
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    } */
     .contacto {
         padding: 5px 20px;
         width: 310px;
