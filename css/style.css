@@ -40,11 +40,11 @@
     
     .menu {
         width: 100%;
-        max-width: 1200px;
+        max-width: 1300px;
         margin: auto;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         z-index: 1000;
     }
