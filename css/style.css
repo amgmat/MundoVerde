@@ -239,7 +239,7 @@
     }
     
     .nombre img {
-        width: 240px;
+        width: 320px;
     }
     /* h2 {
     display: inline-block;
@@ -925,6 +925,12 @@ h2:before {
         background: #f1395c;
     }
     
+    @media screen and (max-width:1000px) {
+        .nombre img {
+            width: 260px;
+        }
+    }
+    
     @media screen and (max-width:950px) {
         .menu .logo {
             display: inline-block;
@@ -932,7 +938,7 @@ h2:before {
             padding: 10px 0;
         }
         .menu .enlaces a {
-            padding: 20px 3px;
+            padding: 20px 2px;
             text-align: center;
             font-size: 1em;
         }
@@ -949,13 +955,16 @@ h2:before {
         align-items: center;
         padding: 20px 0;
     } */
+        header {
+            padding-bottom: 15px;
+        }
         .menu .btn-menu {
-            margin-top: -15px;
+            margin-top: -5px;
         }
         .menu .logo {
             display: inline-block;
             margin-right: 3em;
-            padding: 10px 0;
+            padding: 10px 0 5px 0;
         }
         .menu .enlaces a {
             padding: 16px;
@@ -981,9 +990,9 @@ h2:before {
         height: 100%;
         fill: transparent;
     } */
-        header {
-            padding: 15px 0;
-        }
+        /* header {
+            padding: 10px 0;
+        } */
         header .menu {
             flex-direction: column;
         }
@@ -992,7 +1001,7 @@ h2:before {
             flex-direction: row;
             justify-content: space-between;
             width: 100%;
-            padding: 1em;
+            padding-left: 2em;
         }
         header .menu .btn-menu {
             display: inline-block;
@@ -1011,16 +1020,16 @@ h2:before {
         }
         .nombre {
             padding-left: 20px;
-            padding-bottom: 35px;
-            margin-top: -70px;
+            padding-bottom: 30px;
+            margin-top: -60px;
             /* padding-top: 20px; */
         }
         .nombre img {
-            width: 180px;
+            width: 240px;
         }
-        .menu img {
+        /* .menu img {
             margin: -20px 0 0 0;
-        }
+        } */
         .cotizacion img,
         .mantenimiento img,
         .reconstruccion img {
@@ -1035,8 +1044,14 @@ h2:before {
     }
     
     @media screen and (max-width: 800px) {
+        /* header {
+            padding: 15px 5px 0 0;
+        } */
         .nombre {
             padding-left: 70px;
+        }
+        .nombre img {
+            width: 210px;
         }
         .main h1 {
             margin: 280px 0 50px 45px;
@@ -1096,17 +1111,20 @@ h2:before {
             /* height: 500px; */
         }
         header {
-            padding: 10px 5px 0 0;
+            padding: 15px 5px 0 0;
         }
         .nombre {
-            margin-top: -50px;
+            margin-top: -55px;
             padding-left: 15px;
         }
         .menu .btn-menu {
-            margin-top: -25px;
+            margin-top: -5px;
         }
         .menu img {
-            width: 120px;
+            width: 130px;
+        }
+        .nombre img {
+            width: 200px;
         }
         .nombre a svg,
         .nombre a svg rect {
@@ -1284,15 +1302,22 @@ h2:before {
         /* body {
         background-size: 110%;
     } */
+        header {
+            padding: 10px;
+        }
         .menu img {
             width: 100px;
+        }
+        .nombre img {
+            width: 180px;
         }
         .menu #btn-menu {
             padding-top: 15px;
             font-size: 20px;
         }
         .nombre {
-            padding-bottom: 10px;
+            padding-bottom: 5px;
+            padding-left: 40px;
             margin-top: -55px;
         }
         .carousel-item .carousel-caption {
@@ -1323,10 +1348,13 @@ h2:before {
         body {
             background-size: 105%;
         }
-        .nombre {
+        /* .nombre {
             margin: 5px;
             padding: 5px;
-            /* padding-top: 20px; */
+        } */
+        .nombre img {
+            padding-top: 10px;
+            width: 150px;
         }
         .menu .enlaces {
             text-align: justify;
@@ -1421,6 +1449,12 @@ h2:before {
     }
     
     @media screen and (max-width: 350px) {
+        .nombre {
+            padding-left: 55px;
+        }
+        .nombre img {
+            width: 135px;
+        }
         .menu2 .enlaces a {
             font-size: 14px;
         }
@@ -1450,6 +1484,9 @@ h2:before {
         .main h1 {
             margin: 260px 0 40px 35px;
             font-size: 1.5em;
+        }
+        .informacion {
+            margin-top: 90px;
         }
         .informacion img {
             width: 240px;
