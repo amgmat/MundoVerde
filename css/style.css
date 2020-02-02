@@ -800,16 +800,18 @@ h2:before {
     .fumigacion img {
         height: 350px;
     }
-    /* .productos .bloque1 img {
+    
+    .productos .bloque1 img {
         height: 156px;
-    } */
-    /* .productos .bloque2 img {
+    }
+    
+    .productos .bloque2 img {
         height: 277px;
     }
     
     .productos .bloque3 img {
         height: 240px;
-    } */
+    }
     /*----------------------------------------------- Footer----------------------------------------------- */
     
     footer {
@@ -930,17 +932,18 @@ h2:before {
             width: 260px;
         }
     }
-    /* @media screen and (max-width:982px) {
+    
+    @media screen and (max-width:982px) {
         .productos .bloque1 img {
             height: 163px;
-        } */
-    /* .productos .bloque2 img {
+        }
+        .productos .bloque2 img {
             height: 450px;
         }
         .productos .bloque3 img {
             height: 340px;
-        } */
-    /* } */
+        }
+    }
     
     @media screen and (max-width:950px) {
         .menu .logo {
@@ -1314,9 +1317,6 @@ h2:before {
     }
     
     @media screen and (max-width:500px) {
-        /* body {
-        background-size: 110%;
-    } */
         header {
             padding: 10px;
         }
