@@ -1324,6 +1324,9 @@ h2:before {
     }
     
     @media screen and (max-width:500px) {
+        .pagina-n {
+            background-size: 140%;
+        }
         header {
             padding: 10px;
         }
@@ -1364,9 +1367,9 @@ h2:before {
     }
     
     @media screen and (max-width:400px) {
-        body {
-            background-size: 105%;
-        }
+        /* .pagina-n {
+            background-size: 140%;
+        } */
         .nombre img {
             padding-top: 10px;
             width: 150px;
