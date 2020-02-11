@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Servicios</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="shorcut icon" type="image/x-icon" href="img/mv.png">
+    <link href="https://fonts.googleapis.com/css?family=Galada&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body class="pagina-s">
+
+    <header id="header">
+        <nav class="menu">
+            <div class="logo">
+                <a href="index.html"><img src="img/mundo-verde.jpeg" width="170px" alt=""></a>
+                <a href="#" class="btn-menu" id="btn-menu"><i class="fa fa-bars"></i></a>
+            </div>
+
+            <div class="nombre" id="nombre">
+                <a href="index.html">
+                    <svg><rect></rect></svg>
+                    <img src="img/mundoVerde.jpeg" alt=""></a>
+
+            </div>
+
+            <div class="enlaces" id="enlaces">
+                <a href="index.php"><strong>Inicio</strong></a>
+                <a href="contacto.php"><strong>Contacto</strong></a>
+                <a href="servicios.php"><strong>Servicios</strong></a>
+                <a href="nosotros.php"><strong>Nosotros</strong></a>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <section class="servicios">
+        <article>
+            <p>
+                <a href="#construccion"><strong>
+                    <i class="fa fa-leaf" aria-hidden="true"></i> Diseño y construcción de jardines
+                </strong></a>
+
+            </p>
+            <p>
+                <a href="#mantenimiento">
+                    <strong>
+                    <i class="fa fa-leaf" aria-hidden="true"></i> Mantenimiento
+                    </strong></a>
+            </p>
+            <p>
+                <a href="#reconstruccion">
+                    <strong>
+                        <i class="fa fa-leaf" aria-hidden="true"> </i> Reconstrucción
+                    </strong></a>
+            </p>
+            <p>
+                <a href="#fumigacion">
+                    <strong>
+                        <i class="fa fa-leaf" aria-hidden="true"></i> Fumigación
+                    </strong></a>
+            </p>
+            <p>
+                <a href="#cotizacion">
+                    <strong>
+                        <i class="fa fa-leaf" aria-hidden="true"></i> Cotización
+                    </strong></a>
+            </p>
+            <p>
+                <a href="#productos">
+                    <strong>
+                        <i class="fa fa-leaf" aria-hidden="true"></i> Productos
+                    </strong></a>
+            </p>
+
+
+
+        </article>
+    </section>
+
+    <section class="especificacion">
+        <div class="container construccion">
+            <div class="row" id="construccion">
+                <div class="col-12 ">
+                    <h3 class="text-center fuente">Diseño y construcción de Jardines</h3>
+                    <p>Te ofrecemos el diseño que se adecue a tu espacio, integrando plantas que se desarrollen para crear un espacio en armonía.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-6 pt-3">
+
+                    <img src="img/jardinera2-a.jpeg" alt="">
+                    <!-- <div class="py-1">
+                        <h3>Antes</h3>
+                    </div> -->
+
+
+
+                </div>
+
+
+                <div class="col-12 col-sm-6 pt-3">
+                    <img src="img/jardinera2-d.jpeg" alt="">
+                    <!-- <div class="py-1">
+                        <h3>Después</h3>
+                    </div> -->
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="container mantenimiento">
+            <div class="row" id="mantenimiento">
+                <div class="col-12">
+                    <h3 class="text-center border-bottom fuente">Mantenimiento</h3>
+                    <p>Nuestro equipo de trabajo se pone a su disposición para mantener regado, recortado y nutrido los espacios verdes de su entorno.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6">
+
+                    <img src="img/pared-a2.jpeg" alt="">
+                    <div class="py-1">
+                        <h3>Antes</h3>
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <img src="img/pared-d2.jpeg" alt="">
+                    <div class="py-1">
+                        <h3>Después</h3>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-6">
+
+                    <img src="img/paredm-a2.jpeg" alt="">
+                    <div class="py-1">
+                        <h3>Antes</h3>
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <img src="img/paredm-d2.jpeg" alt="">
+                    <div class="py-1">
+                        <h3>Después</h3>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="container reconstruccion">
+            <div class="row" id="reconstruccion">
+                <div class="col-12">
+                    <h3 class="text-center border-bottom fuente">Reconstrucción</h3>
+                    <p>Le damos una segunda vida a tus areas verdes dandole un nuevo estilo.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6">
+
+                    <img src="img/jardin-a.jpeg" alt="">
+                    <div class="py-1">
+                        <h3>Antes</h3>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <img src="img/jardin-d.jpg" alt="">
+                    <div class="py-1">
+                        <h3>Después</h3>
+                    </div>
+                </div>
+
+                <!-- <div class="col-12 col-md-4">
+
+                    <img src="img/tres-plantas.jpeg" alt="">
+                    <div class="py-1">
+                        <h3>Antes</h3>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="container fumigacion">
+            <div class="row" id="fumigacion">
+                <div class="col-12">
+                    <h3 class="text-center border-bottom fuente">Fumigación</h3>
+                    <p>Nuestro equipo de trabajo está especializado en el servicio de fumigación preventiva y correctiva para plantas y árboles, con el cual se combaten enfermedades y plagas dependiendo de su problema.</p>
+                </div>
+            </div>
+            <!-- <div class="row">
+
+                <div class="col-12 col-sm-6 ">
+
+                    <img src="img/maceta-a2.jpg" alt="">
+                    <div class="py-1">
+                        <h3>Antes</h3>
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-12 col-sm-6">
+                    <img src="img/maceta-d.jpg" alt="">
+                    <div class="py-1">
+                        <h3>Después</h3>
+                    </div>
+
+                </div>
+            </div> -->
+
+            <div class="row">
+                <div class="col-12 col-sm-4 pt-3">
+
+                    <img src="img/corredor.jpeg" alt="">
+                    <!-- <div class="py-1">
+                        <h3>Antes</h3>
+                    </div> -->
+                </div>
+
+                <div class="col-12 col-sm-4 pt-3">
+                    <img src="img/1-planta.jpeg" alt="">
+                    <!-- <div class="py-1">
+                        <h3>Después</h3>
+                    </div> -->
+                </div>
+
+                <div class="col-12 col-sm-4 pt-3">
+
+                    <img src="img/tres-plantas.jpeg" alt="">
+                    <!-- <div class="py-1">
+                        <h3>Antes</h3>
+                    </div> -->
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container cotizacion">
+            <div class="row" id="cotizacion">
+                <div class="col-12">
+                    <h3 class="text-center border-bottom fuente">Cotización</h3>
+                    <p>Contactanos para agendar una cita y visitarte para que nos comentes que es lo que deseas para tu hogar y asi poder elaborar un presupuesto.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 pt-3">
+
+                    <img src="img/construyendo-a2.jpeg" alt="">
+                    <!-- <div class="py-1">
+                        <h3>Antes</h3>
+                    </div> -->
+                </div>
+
+
+                <div class="col-12 col-sm-6 pt-3">
+                    <img src="img/jardin-d.jpeg" alt="">
+                    <!-- <div class="py-1">
+                        <h3>Después</h3>
+                    </div> -->
+
+                </div>
+
+                <!-- <div class="col-12 col-sm-6 col-md-3">
+
+                    <img src="img/maceta-a2.jpg" alt="">
+                    <div class="py-1">
+                        <h3>Antes</h3>
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img src="img/maceta-d.jpg" alt="">
+                    <div class="py-1">
+                        <h3>Después</h3>
+                    </div>
+
+                </div> -->
+            </div>
+
+        </div>
+
+        <div class="container productos">
+            <!-- <h3>Conoce nuestros productos</h3> -->
+            <div class="row" id="productos">
+                <div class="col-12">
+                    <div class="py-4">
+                        <h3 class="text-center fuente">Conoce nuestros productos</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-4 ">
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card bloque1">
+                        <img class="card-img-top" src="img/lustrador.png" alt="">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Floraphil</h3>
+                            <p class="card-text h4">Lustrador de hojas</p>
+                            <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card bloque1">
+                        <img class="card-img-top" src="img/insecticida-formition.png" alt="">
+
+
+                        <div class="card-body">
+                            <h3 class="card-title">Formition </h3>
+                            <p class="card-text h4">Mata hormigas</p>
+                            <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card bloque1">
+                        <img class="card-img-top" src="img/alimento-rosas.png" alt="">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Floraphil</h3>
+                            <p class="card-text h4">Alimento para rosas</p>
+                            <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card bloque1">
+                        <img class="card-img-top" src="img/herbecida.png" alt="">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Faena</h3>
+                            <p class="card-text h4">Herbicida</p>
+                            <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card bloque2">
+                        <img class="card-img-top" src="img/fitoterra.png" alt="">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Fitoterra D</h3>
+                            <p class="card-text h4">Insecticida</p>
+                            <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card bloque2">
+                        <img class="card-img-top" src="img/foley.png" alt="">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Foley</h3>
+                            <p class="card-text h4">Insecticida</p>
+                            <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card bloque2">
+                        <img class="card-img-top" src="img/molusquicida.png" alt="">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Tapps'o</h3>
+                            <p class="card-text h4">Molusquicida</p>
+                            <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card bloque2">
+                        <img class="card-img-top" src="img/insecticida.png" alt="">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Terramicina</h3>
+                            <p class="card-text h4">Insecticida</p>
+                            <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                    <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card bloque3">
+                        <img class="card-img-top" src="img/nitrofoska.png" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Nitrofoska</h3>
+                            <p class="card-text h4">Fertilizante</p>
+                            <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card bloque3">
+                        <img class="card-img-top" src="img/diazudin.png" alt="">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Diazudin</h3>
+                            <p class="card-text h4">Insecticida</p>
+                            <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card bloque3">
+                        <img class="card-img-top" src="img/fertilizante.png" alt="">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Pelicano</h3>
+                            <p class="card-text h4">Fertilizante</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+    </section>
+
+    <div class="redes">
+        <ul>
+            <li>
+                <a href="https://api.whatsapp.com/send?phone=5215574287773&text=Hola,%20quiero%20informacion sobre:" target="_blank">
+                    <span class="whatsapp"></span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/MV-Mundo-Verde-121840909216313/" target="_blank">
+                    <span class="facebook"></span></a>
+            </li>
+            <li>
+                <a href="https://instagram.com/mv_mundo_verde?igshid=jome5z6dmze" target="_blank">
+                    <span class="instagram"></span></a>
+            </li>
+        </ul>
+    </div>
+
+    <span class="subir">
+        <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+    </span>
+
+    <footer>
+
+        <!-- <div class="redes-sociales">
+            <h4>Siguenos através de nuestras redes sociales</h4>
+            <ul>
+                <li><a href="https://www.facebook.com/MV-Mundo-Verde-121840909216313/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="https://instagram.com/mv_mundo_verde?igshid=jome5z6dmze" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div> -->
+
+        <div class="copy">
+            <p>&copy; copyright 2020</p>
+        </div>
+
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/headroom.min.js"></script>
+
+</body>
+
+</html>

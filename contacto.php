@@ -57,12 +57,12 @@ if(isset($_POST['submit'])) {
         $mensaje_p .= "Telefono: $telefono \n";
         $mensaje_p .= "Mensaje: " . $mensaje;
 
-        mail($enviar, $asunto , $mensaje_p);
+        mail($enviar, $asunto, $mensaje_p);
         $enviado = 'true';
     }
 }
 
 
-require 'contacto.view.php';
+require 'views/contacto.view.php';
 
 ?>

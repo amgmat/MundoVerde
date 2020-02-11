@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="shorcut icon" type="image/x-icon" href="img/mv.png">
+    <link href="https://fonts.googleapis.com/css?family=Playball&display=swap" rel="stylesheet">
 
 
 </head>
 
-<body>
+<body class="pagina-c">
 
     <header id="header">
         <nav class="menu">
@@ -26,18 +27,17 @@
 
             <div class="nombre" id="nombre">
                 <a href="index.html">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span><strong> Mundo Verde </strong></a>
+                    <svg><rect></rect></svg>
+                    <img src="img/mundoVerde.jpeg" alt=""></a>
 
             </div>
 
+            
             <div class="enlaces" id="enlaces">
-                <a href="index.html">Inicio</a>
-                <a href="contacto.php">Contacto</a>
-                <a href="servicios.html">Servicios</a>
-                <a href="acerca-de.html">Acerca de</a>
+                <a href="index.php"><strong>Inicio</strong></a>
+                <a href="contacto.php"><strong>Contacto</strong></a>
+                <a href="servicios.php"><strong>Servicios</strong></a>
+                <a href="nosotros.php"><strong>Nosotros</strong></a>
             </div>
         </nav>
 
@@ -46,19 +46,18 @@
     <section class="contacto">
         <div class="contenedor">
         <div class="aviso">
-                        <?php if (!empty($errores)): ?>
-				             <div class="alert error">
-				                <?php echo $errores ?>
-				             </div>
-			            <?php elseif ($enviado): ?>
-			            	<div class="alert success">
-			            		<p>Enviado Correctamente</p>
-			            	</div>
-			            <?php endif ?>
-                    </div>
+           <?php if (!empty($errores)): ?>
+	            <div class="alert error">
+	               <?php echo $errores ?>
+	            </div>
+	       <?php elseif ($enviado): ?>
+	       	<div class="alert success">
+	       		<p>Enviado Correctamente</p>
+	       	</div>
+	       <?php endif ?>
+        </div>
             <h2 class="titulo">Contacto</h2>
-            <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" class="formulario">
-            
+            <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" class="formulario">           
             
                 <label for="nombre">Nombre</label>
                 <input type="text" name="nombre" placeholder="Nombre"
@@ -87,30 +86,40 @@
                 <br>
                 
 
-                <input type="submit" name="submit" value="Enviar">
+                <input type="submit" name="submit" value="Enviar" id='Enviar' >
 
             </form>
         </div>
 
     </section>
 
-    <div class="whatsapp">
+    <div class="redes">
         <ul>
             <li>
-                <a href="https://api.whatsapp.com/send?phone=5215515070944&text=Hola,%20quiero%20informacion sobre:" target="_blank"><span><i class="fab fa-whatsapp"></i></span></a></li>
+                <a href="https://api.whatsapp.com/send?phone=5215574287773&text=Hola,%20quiero%20informacion sobre:" target="_blank">
+                    <span class="whatsapp"></span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/MV-Mundo-Verde-121840909216313/" target="_blank">
+                    <span class="facebook"></span></a>
+            </li>
+            <li>
+                <a href="https://instagram.com/mv_mundo_verde?igshid=jome5z6dmze" target="_blank">
+                    <span class="instagram"></span></a>
+            </li>
         </ul>
     </div>
 
 
     <footer>
 
-        <div class="redes-sociales">
+        <!-- <div class="redes-sociales">
             <h4>Siguenos através de nuestras redes sociales</h4>
             <ul>
                 <li><a href="https://www.facebook.com/MV-Mundo-Verde-121840909216313/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                 <li><a href="https://instagram.com/mv_mundo_verde?igshid=jome5z6dmze" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
             </ul>
-        </div>
+        </div> -->
 
         <div class="copy">
             <p>&copy; copyright 2019</p>
