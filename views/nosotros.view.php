@@ -17,20 +17,19 @@
 
 <body class="pagina-n">
 
-    <header id="header">
+<header id="header">
         <nav class="menu">
             <div class="logo">
-                <a href="index.html"><img src="img/mundo-verde.jpeg" width="170px" alt=""></a>
+                <a href="index.php"><img src="img/mundo-verde.jpeg" width="170px" alt=""></a>
                 <a href="#" class="btn-menu" id="btn-menu"><i class="fa fa-bars"></i></a>
             </div>
 
             <div class="nombre" id="nombre">
-                <a href="index.html">
+                <a href="index.php">
                     <svg><rect></rect></svg>
                     <img src="img/mundoVerde.jpeg" alt=""></a>
 
             </div>
-
 
             <div class="enlaces" id="enlaces">
                 <a href="index.php"><strong>Inicio</strong></a>
