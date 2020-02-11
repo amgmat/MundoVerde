@@ -605,13 +605,14 @@ h2:before {
         padding-top: 10px;
         border-radius: 5px;
     }
-    /* .contacto .aviso {
+    
+    .contacto .aviso {
         display: none;
     }
     
     .contacto .active {
         display: block;
-    } */
+    }
     
     .contacto .titulo {
         text-align: center;

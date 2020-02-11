@@ -49,7 +49,7 @@ if(isset($_POST['submit'])) {
 
 
     if(!$errores){
-        $enviar = 'amg.13.161@gmail.com ';
+        $enviar = 'amg.13.161@gmail.com';
         $asunto = 'Correo enviado desde mundo verde';
         $mensaje_p = "De: $nombre ";
         $mensaje_p .= "$apellido \n";
