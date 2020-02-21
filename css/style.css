@@ -1128,11 +1128,12 @@ h2:before {
             background-size: 120%;
         }
         .pagina-s {
-            background-image: url(../img/garden-p.jpg);
+            background-image: url(../img/tunel-rosas.jpg);
         }
         .pagina-n {
-            background-image: url(../img/tunel-rosas.jpg);
-            background-size: 110%;
+            /* background-image: url(../img/tunel-rosas.jpg); */
+            background-image: url(../img/garden-p.jpg);
+            /* background-size: 110%; */
         }
         header {
             padding: 15px 5px 0 0;
