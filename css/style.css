@@ -6,7 +6,8 @@
     
     body {
         background-position: center;
-        background-size: cover;
+        /* background-size: cover; */
+        background-size: 100% 100%;
         background-attachment: fixed;
         position: relative;
     }
@@ -1125,16 +1126,16 @@ h2:before {
         } */
         body {
             background-position: center;
-            background-size: cover;
+            background-size: 100% 100%;
             background-attachment: fixed;
-            position: relative;
+            background-repeat: no-repeat;
+            /* position: relative; */
         }
         .pagina-i {
             background-image: url(../img/sendero.jpg);
         }
         .pagina-c {
             background-image: url(../img/tunel-s.jpg);
-            background-size: 120%;
         }
         .pagina-s {
             background-image: url(../img/verde-arb.jpeg);
