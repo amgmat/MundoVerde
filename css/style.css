@@ -1349,9 +1349,9 @@ h2:before {
     }
     
     @media screen and (max-width:500px) {
-        .pagina-n {
+        /* .pagina-n {
             background-size: 140%;
-        }
+        } */
         header {
             padding: 10px;
         }
@@ -1437,12 +1437,14 @@ h2:before {
         }
         .menu #btn-menu {
             padding-top: 15px;
+            font-size: 22px;
+            /* margin-left: 20px; */
         }
         .nombre {
             margin-top: -60px;
         }
         .nombre a {
-            padding: 10px 30px;
+            padding: 5px 30px;
             font-size: 20px;
             letter-spacing: 0px;
         }
@@ -1502,11 +1504,15 @@ h2:before {
     }
     
     @media screen and (max-width: 350px) {
+        /* .logo a img {
+            width: 50px;
+        } */
         .nombre {
-            padding-left: 55px;
+            padding-left: 50px;
+            /* margin: 2px 0; */
         }
         .nombre img {
-            width: 135px;
+            width: 115px;
         }
         .menu2 .enlaces a {
             font-size: 14px;
