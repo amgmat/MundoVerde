@@ -2,9 +2,27 @@
 <html lang="es">
 
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143700432-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143700432-2');
+</script>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mundo Verde es una empresa cuya finalidad es incentivar a crear, modificar y cuidar espacio espacios verdes. Mundo Verde busca hacer conciencia social sobre la importancia de cuidado de nuestras areas verdes">
+    <meta name="author" content="Mundo-Verde Alejandro MG">
+    <meta name="keywords" content="mundo verde,mundoverde, Mundo Verde, mv mundo verde, mv ">
+    <meta name="owner" content="Mundo Verde AMG">
+    <meta name="copyright" content="Mundo Verde AMG">
+    <meta name="robots" content="index, follow">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="google-site-verification" content="UsLMJ-rEAHz7IGvC8fo1nMZucdoXxYYggruw7_4xIAM" />
     <title>Mundo Verde</title>
 
     <link rel="stylesheet" href="css/style.css">
@@ -15,35 +33,37 @@
 
 </head>
 
-<body class="pagina-i">
+<body>
+    <div class="pagina-i">
+        <header id="header">
+            <nav class="menu">
+                <div class="logo">
+                    <a href="index.html"><img src="img/mundo-verde.jpeg" width="170px" alt=""></a>
+                    <a href="#" class="btn-menu" id="btn-menu"><i class="fa fa-bars"></i></a>
+                </div>
 
-    <header id="header">
-        <nav class="menu">
-            <div class="logo">
-                <a href="index.php"><img src="img/mundo-verde.jpeg" width="170px" alt=""></a>
-                <a href="#" class="btn-menu" id="btn-menu"><i class="fa fa-bars"></i></a>
-            </div>
+                <div class="nombre" id="nombre">
+                    <a href="index.php">
+                        <svg><rect></rect></svg>
+                        <img src="img/mundoVerde.jpeg" alt=""></a>
 
-            <div class="nombre" id="nombre">
-                <a href="index.php">
-                    <svg><rect></rect></svg>
-                    <img src="img/mundoVerde.jpeg" alt=""></a>
+                </div>
 
-            </div>
+                <div class="enlaces" id="enlaces">
+                    <a href="index.php"><strong>Inicio</strong></a>
+                    <a href="contacto.php"><strong>Contacto</strong></a>
+                    <a href="servicios.php"><strong>Servicios</strong></a>
+                    <a href="nosotros.php"><strong>Nosotros</strong></a>
+                </div>
+            </nav>
 
-            <div class="enlaces" id="enlaces">
-                <a href="index.php"><strong>Inicio</strong></a>
-                <a href="contacto.php"><strong>Contacto</strong></a>
-                <a href="servicios.php"><strong>Servicios</strong></a>
-                <a href="nosotros.php"><strong>Nosotros</strong></a>
-            </div>
-        </nav>
+        </header>
 
-    </header>
+        <main role="main" class="main">
+            <h1><span></span></h1>
+        </main>
 
-    <main role="main" class="main">
-        <h1><span></span></h1>
-    </main>
+    </div>
 
 
     <div class="redes">

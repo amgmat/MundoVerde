@@ -15,76 +15,77 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 
-<body class="pagina-s">
+<body>
+    <div class="pagina-s">
+        <header id="header">
+            <nav class="menu">
+                <div class="logo">
+                    <a href="index.html"><img src="img/mundo-verde.jpeg" width="170px" alt=""></a>
+                    <a href="#" class="btn-menu" id="btn-menu"><i class="fa fa-bars"></i></a>
+                </div>
 
-<header id="header">
-        <nav class="menu">
-            <div class="logo">
-                <a href="index.php"><img src="img/mundo-verde.jpeg" width="170px" alt=""></a>
-                <a href="#" class="btn-menu" id="btn-menu"><i class="fa fa-bars"></i></a>
-            </div>
+                <div class="nombre" id="nombre">
+                    <a href="index.php">
+                        <svg><rect></rect></svg>
+                        <img src="img/mundoVerde.jpeg" alt=""></a>
 
-            <div class="nombre" id="nombre">
-                <a href="index.php">
-                    <svg><rect></rect></svg>
-                    <img src="img/mundoVerde.jpeg" alt=""></a>
+                </div>
 
-            </div>
+                <div class="enlaces" id="enlaces">
+                    <a href="index.php"><strong>Inicio</strong></a>
+                    <a href="contacto.php"><strong>Contacto</strong></a>
+                    <a href="servicios.php"><strong>Servicios</strong></a>
+                    <a href="nosotros.php"><strong>Nosotros</strong></a>
+                </div>
+            </nav>
 
-            <div class="enlaces" id="enlaces">
-                <a href="index.php"><strong>Inicio</strong></a>
-                <a href="contacto.php"><strong>Contacto</strong></a>
-                <a href="servicios.php"><strong>Servicios</strong></a>
-                <a href="nosotros.php"><strong>Nosotros</strong></a>
-            </div>
-        </nav>
+        </header>
 
-    </header>
-
-
-    <section class="servicios">
-        <article>
-            <p>
-                <a href="#construccion"><strong>
-                    <i class="fa fa-leaf" aria-hidden="true"></i> Diseño y construcción de jardines
-                </strong></a>
-
-            </p>
-            <p>
-                <a href="#mantenimiento">
-                    <strong>
-                    <i class="fa fa-leaf" aria-hidden="true"></i> Mantenimiento
+        <section class="servicios">
+            <article>
+                <p>
+                    <a href="#construccion"><strong>
+                        <i class="fa fa-leaf" aria-hidden="true"></i> Diseño y construcción de jardines
                     </strong></a>
-            </p>
-            <p>
-                <a href="#reconstruccion">
-                    <strong>
-                        <i class="fa fa-leaf" aria-hidden="true"> </i> Reconstrucción
-                    </strong></a>
-            </p>
-            <p>
-                <a href="#fumigacion">
-                    <strong>
-                        <i class="fa fa-leaf" aria-hidden="true"></i> Fumigación
-                    </strong></a>
-            </p>
-            <p>
-                <a href="#cotizacion">
-                    <strong>
-                        <i class="fa fa-leaf" aria-hidden="true"></i> Cotización
-                    </strong></a>
-            </p>
-            <p>
-                <a href="#productos">
-                    <strong>
-                        <i class="fa fa-leaf" aria-hidden="true"></i> Productos
-                    </strong></a>
-            </p>
+
+                </p>
+                <p>
+                    <a href="#mantenimiento">
+                        <strong>
+                        <i class="fa fa-leaf" aria-hidden="true"></i> Mantenimiento
+                        </strong></a>
+                </p>
+                <p>
+                    <a href="#reconstruccion">
+                        <strong>
+                            <i class="fa fa-leaf" aria-hidden="true"> </i> Reconstrucción
+                        </strong></a>
+                </p>
+                <p>
+                    <a href="#fumigacion">
+                        <strong>
+                            <i class="fa fa-leaf" aria-hidden="true"></i> Fumigación
+                        </strong></a>
+                </p>
+                <p>
+                    <a href="#cotizacion">
+                        <strong>
+                            <i class="fa fa-leaf" aria-hidden="true"></i> Cotización
+                        </strong></a>
+                </p>
+                <p>
+                    <a href="#productos">
+                        <strong>
+                            <i class="fa fa-leaf" aria-hidden="true"></i> Productos
+                        </strong></a>
+                </p>
 
 
 
-        </article>
-    </section>
+            </article>
+        </section>
+    </div>
+
 
     <section class="especificacion">
         <div class="container construccion">
