@@ -17,7 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Mundo Verde es una empresa cuya finalidad es incentivar a crear, modificar y cuidar espacio espacios verdes. Mundo Verde busca hacer conciencia social sobre la importancia de cuidado de nuestras areas verdes">
     <meta name="author" content="Mundo-Verde Alejandro MG">
-    <meta name="keywords" content="mundo verde,mundoverde, Mundo Verde, mv mundo verde, mv ">
+    <meta name="keywords" content="mundo verde,mundoverde, Mundo Verde, mv mundo verde, mv , mundo verde mv">
     <meta name="owner" content="Mundo Verde AMG">
     <meta name="copyright" content="Mundo Verde AMG">
     <meta name="robots" content="index, follow">
