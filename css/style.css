@@ -8,7 +8,7 @@
     background-image: url(../img/invernadero.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -30,16 +30,16 @@
 }
 
 body {
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center;
-    background-size: cover;
+    /* background-size: cover; */
     /* background-size: 100% 100%; */
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     position: relative;
 }
 
 
-/* Header */
+/*---------------------------- Header--------------------------------- */
 
 header {
     position: fixed;
@@ -48,6 +48,33 @@ header {
     background: #fff;
     z-index: 1000;
 }
+
+header .datosE ul,
+header .datosD ul {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+header .datosE li {
+    display: inline;
+    margin: 0px 80px;
+    color: rgba(28, 201, 4, 1);
+    font-size: 17px;
+}
+
+header .datosD li,
+header .datosD li a {
+    color: rgba(28, 201, 4, 1);
+}
+
+header .datosD ul {
+    display: none;
+}
+
+
+/* header .datosD li a:hover {
+    text-decoration: none;
+} */
 
 .menu {
     width: 100%;
@@ -179,12 +206,6 @@ header {
     padding: 290px 30px;
     color: #fff;
     font-size: 4em;
-    /* text-shadow: 2px 4px 0 rgba(0, 0, 0, .8); */
-    /* text-shadow: -2px -1px #000, 0 2px #000, 2px 0 #000, 0 -2px #000; */
-    /* text-shadow: -1px 0 rgba(28, 201, 4, 1), 0 1px rgba(28, 201, 4, 1), 1px 0 rgba(28, 201, 4, 1), 0 -1px rgba(28, 201, 4, 1); */
-    /* text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff; */
-    /* text-shadow: 0.1em 0.1em 0.2em rgba(28, 201, 4, 1); */
-    /* text-shadow: 0 0 0.2em rgba(28, 201, 4, 1), 0 0 0.2em rgba(28, 201, 4, 1); */
     text-shadow: 0 0 0.2em #000, 0 0 0.2em #000, 0 0 0.2em #000;
 }
 
@@ -231,11 +252,6 @@ header {
     overflow: hidden;
     transition: 0.5s;
     z-index: 1000;
-    /* background: rgba(255, 255, 255, .6); */
-    /* box-shadow: 0 5px 5px rgba(0, 0, 0, .2); */
-    /* color: #000;
-    background: #fff;
-    mix-blend-mode: multiply; */
 }
 
 .nombre img {
@@ -265,8 +281,6 @@ h2:before {
 
 .nombre a:before {
     content: '';
-    /* background: linear-gradient(#A3C23C, #7C9439, #609B40);
-    mix-blend-mode: screen; */
     position: absolute;
     top: 0;
     left: 0;
@@ -400,7 +414,6 @@ a svg rect {
  */
 
 .subir {
-    /* position: fixed; */
     font-size: 30px;
     display: none;
     padding: 0 10px;
@@ -424,13 +437,11 @@ a svg rect {
     position: absolute;
     margin: 0;
     padding: 0;
-    /* display: flex; */
 }
 
 .redes ul li {
     list-style: none;
     position: relative;
-    /* margin: 2px 0; */
 }
 
 .redes ul li a {
@@ -528,6 +539,8 @@ a svg rect {
     background: #e4405f;
 }
 
+
+/* 
 .carousel .carousel-indicators {
     padding: 120px;
 }
@@ -549,7 +562,6 @@ a svg rect {
 .carousel-item .carousel-caption span {
     padding: 20px;
     font-size: 30px;
-    /* z-index: 1000; */
 }
 
 .carousel-item .carousel-caption span a {
@@ -557,7 +569,6 @@ a svg rect {
     font-size: 22px;
     padding: 5px;
     border: 2px solid #fff;
-    /* z-index: 1000; */
 }
 
 .carousel-item .carousel-caption span a:hover {
@@ -565,13 +576,11 @@ a svg rect {
     background: #fff;
     color: rgba(4, 180, 4, 1);
     cursor: pointer;
-    /* z-index: 1000; */
-}
+} */
 
 .bienvenida {
     width: 100%;
     text-align: center;
-    /* background: #BEF781; */
     background: #E1F5A9;
     background-size: cover;
     padding: 20px;
@@ -588,7 +597,6 @@ a svg rect {
 .bienvenida .titulo,
 .bienvenida h2 {
     font-family: 'Galada';
-    /* font-size: 30px; */
 }
 
 .bienvenida img {
@@ -598,7 +606,6 @@ a svg rect {
 .productos {
     width: 100%;
     text-align: center;
-    /* background: #BEF781; */
     background: #E1F5A9;
     background-size: cover;
     padding: 20px;
@@ -611,7 +618,7 @@ a svg rect {
 }
 
 
-/*------------------------------- Formulario-------------------- */
+/*--------------------------------- Formulario----------------------------- */
 
 .contacto {
     padding: 30px;
@@ -715,14 +722,12 @@ form input[type="submit"]:hover {
 }
 
 
-/*---------------------------------- informacion --------------------------------*/
+/*------------------------------------------ informacion ----------------------------------------*/
 
 .informacion {
     width: 75%;
     margin: 140px auto 80px auto;
     text-align: center;
-    /* padding-top: 140px; */
-    /* padding-bottom: 80px; */
 }
 
 .informacion h2 {
@@ -744,19 +749,11 @@ form input[type="submit"]:hover {
     margin: 0 auto auto auto;
     padding: 120px 0 40px 0;
     text-align: center;
-    /* padding-top: 150px; */
-    /* padding-bottom: 100px; */
 }
 
 .servicios .fa {
     font-size: 20px;
 }
-
-
-/* .servicios p img {
-    border-radius: 5px;
-    background: #fff;
-} */
 
 .servicios p a {
     font-size: 32px;
@@ -765,7 +762,6 @@ form input[type="submit"]:hover {
 
 .servicios p a:hover {
     padding: 4px;
-    /* background: #fff; */
     color: rgba(28, 201, 4, 1);
     text-decoration: none;
     text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
@@ -787,7 +783,6 @@ article p a:hover {
 }
 
 .especificacion {
-    /* background: #BEF781; */
     background: #E1F5A9;
     background-size: 100%;
     text-align: center;
@@ -854,7 +849,6 @@ article p a:hover {
 footer {
     background: #262626;
     width: 100%;
-    /* bottom: 0; */
 }
 
 footer .copy {
@@ -1008,6 +1002,12 @@ footer .redes-sociales h4 {
     .menu .btn-menu {
         margin-top: -5px;
     }
+    header .datosE ul {
+        margin: 4px 0px;
+    }
+    header .datosE li {
+        margin: 0px 40px;
+    }
     .menu .logo {
         display: inline-block;
         margin-right: 3em;
@@ -1019,27 +1019,6 @@ footer .redes-sociales h4 {
         font-size: 1em;
         padding: 6px 4px;
     }
-    /* .nombre img {
-        margin-top: -20px;
-    }
-    .nombre a:before {
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-    .nombre a svg,
-    .nombre a svg rect {
-        position: absolute;
-        top: 2px;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        fill: transparent;
-    } */
-    /* header {
-            padding: 10px 0;
-        } */
     header .menu {
         flex-direction: column;
     }
@@ -1052,7 +1031,6 @@ footer .redes-sociales h4 {
     }
     header .menu .btn-menu {
         display: inline-block;
-        /* color: #fff; */
         z-index: 2;
     }
     header .menu .enlaces {
@@ -1069,14 +1047,10 @@ footer .redes-sociales h4 {
         padding-left: 20px;
         padding-bottom: 30px;
         margin-top: -60px;
-        /* padding-top: 20px; */
     }
     .nombre img {
         width: 240px;
     }
-    /* .menu img {
-            margin: -20px 0 0 0;
-        } */
     .cotizacion img,
     .mantenimiento img,
     .reconstruccion img {
@@ -1091,9 +1065,6 @@ footer .redes-sociales h4 {
 }
 
 @media screen and (max-width: 800px) {
-    /* header {
-            padding: 15px 5px 0 0;
-        } */
     .nombre {
         padding-left: 70px;
     }
@@ -1101,7 +1072,6 @@ footer .redes-sociales h4 {
         width: 210px;
     }
     .main h1 {
-        /* margin: 280px 0 50px 45px; */
         font-size: 3em;
     }
     .bienvenida img {
@@ -1111,15 +1081,6 @@ footer .redes-sociales h4 {
         margin: 100px auto;
         top: 25%;
         width: 450px;
-    }
-    .carousel-item .carousel-caption p,
-    .carousel-item .carousel-caption span {
-        padding: 10px;
-        font-size: 26px;
-    }
-    .carousel-item .carousel-caption span a {
-        font-size: 20px;
-        padding: 5px;
     }
     .construccion img {
         height: 370px;
@@ -1148,7 +1109,7 @@ footer .redes-sociales h4 {
     .pagina-i {
         background-image: url(../img/sendero.jpg);
         background-position: center;
-        background-size: 100%;
+        background-size: 120%;
     }
     .pagina-c {
         background-image: url(../img/tunel-s.jpg);
@@ -1162,19 +1123,29 @@ footer .redes-sociales h4 {
     .pagina-n {
         /* background-image: url(../img/tunel-rosas.jpg); */
         background-image: url(../img/garden-p.jpg);
-        /* background-size: 110%; */
+        background-size: 120%;
     }
     body {
         background-repeat: no-repeat;
         background-position: center;
         /* background-size: 100% 100%; */
-        background-size: cover;
+        /* background-size: cover; */
         /* background-size: 100%; */
         background-attachment: fixed;
-        /* position: relative; */
     }
     header {
         padding: 15px 5px 0 0;
+    }
+    header .datosE ul {
+        display: none;
+    }
+    header .datosD ul {
+        display: inline;
+        margin: 3px 0px;
+        list-style: none;
+    }
+    header .datosD li {
+        margin: 0px 30px;
     }
     .nombre {
         margin-top: -55px;
@@ -1197,9 +1168,6 @@ footer .redes-sociales h4 {
         margin: 0 0 15px 15px;
         font-size: 2.5em;
     }
-    .carousel-item .carousel-caption {
-        width: 400px;
-    }
     .informacion h2 {
         font-size: 26px;
     }
@@ -1209,9 +1177,6 @@ footer .redes-sociales h4 {
     .servicios h2 {
         font-size: 24px;
     }
-    /* .servicios p {
-            font-size: 18px;
-        } */
     .servicios p a {
         font-size: 26px;
     }
@@ -1223,7 +1188,6 @@ footer .redes-sociales h4 {
         width: 35px;
         height: 35px;
         transition: 0s;
-        /* top: 60px; */
     }
     .redes ul li a span:before {
         /* content: 'A'; */
@@ -1233,7 +1197,6 @@ footer .redes-sociales h4 {
         position: absolute;
         top: 0;
         left: 0;
-        /* background: #25D366; */
         transform-origin: top;
         transition: transform 0s;
         font-size: 22px;
@@ -1290,7 +1253,6 @@ footer .redes-sociales h4 {
         display: block;
         width: 40px;
         height: 40px;
-        /* background: #fff; */
         text-align: center;
         transform: perspective(0px) rotate(0deg) skew(0deg) translate(0, 0);
         transition: 0 s;
@@ -1372,9 +1334,6 @@ footer .redes-sociales h4 {
 }
 
 @media screen and (max-width:500px) {
-    /* .pagina-n {
-            background-size: 140%;
-        } */
     header {
         padding: 10px;
     }
@@ -1393,29 +1352,11 @@ footer .redes-sociales h4 {
     }
     .main h1 {
         margin: 0 0 40px 35px;
-        /* padding: 260px 30px; */
-        /* font-size: 2em; */
     }
     .nombre {
         padding-bottom: 5px;
         padding-left: 40px;
         margin-top: -55px;
-    }
-    .carousel-item .carousel-caption {
-        /* margin: 100px auto; */
-        top: 19%;
-        width: 300px;
-        height: 200px;
-        padding: 20px 0;
-    }
-    .carousel-item .carousel-caption p,
-    .carousel-item .carousel-caption span {
-        padding: 10px;
-        font-size: 20px;
-    }
-    .carousel-item .carousel-caption span a {
-        font-size: 16px;
-        padding: 5px;
     }
     .servicios p a {
         font-size: 22px;
@@ -1426,13 +1367,15 @@ footer .redes-sociales h4 {
     .informacion p {
         font-size: 20px;
     }
-    /* .servicios {
-        padding-top: 20px;
-        padding-bottom: 10px;
-    } */
 }
 
 @media screen and (max-width:400px) {
+    .pagina-i {
+        background-size: auto 100%;
+    }
+    header .datosD li {
+        font-size: 14.5px;
+    }
     .nombre img {
         padding-top: 10px;
         width: 150px;
@@ -1442,7 +1385,7 @@ footer .redes-sociales h4 {
         left: 10%;
         padding: 10px 2px;
     }
-    .menu2 .enlaces {
+    /* .menu2 .enlaces {
         text-align: justify;
         padding: 10px 2px;
     }
@@ -1451,13 +1394,13 @@ footer .redes-sociales h4 {
     }
     .menu2 a {
         font-size: 20px;
-    }
+    } */
     .menu .enlaces a {
         padding: 2px;
     }
-    .menu2 .enlaces a {
+    /* .menu2 .enlaces a {
         padding: 2px;
-    }
+    } */
     .bienvenida h2 {
         font-size: 34px;
     }
@@ -1529,6 +1472,9 @@ footer .redes-sociales h4 {
 }
 
 @media screen and (max-width: 350px) {
+    header .datosD li {
+        font-size: 13px;
+    }
     .nombre {
         padding-left: 50px;
         /* margin: 2px 0; */
@@ -1537,7 +1483,7 @@ footer .redes-sociales h4 {
         width: 115px;
     }
     .main {
-        height: 470px;
+        height: 480px;
     }
     .main h1 {
         margin: 0 0 40px 35px;

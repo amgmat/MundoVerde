@@ -80,8 +80,7 @@
                 <br>
 
                 <label for="telefono">Teléfono</label>
-                <input type="number" placeholder="Teléfono(Opcional)"
-                id="telefono">
+                <input type="number" name="telefono" placeholder="Teléfono(Opcional)" id="telefono">
                 <?php if(!$enviado && isset($telefono)) echo $telefono ?>
                 <br>
                 

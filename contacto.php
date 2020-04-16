@@ -8,12 +8,13 @@ if(isset($_POST['submit'])) {
    $apellido=$_POST['apellido'];
    $correo=$_POST['correo'];
    $mensaje=$_POST['mensaje'];
+   $telefono=$_POST['telefono'];
 
-   if(isset($_POST['telefono'])){
-    $telefono=$_POST['telefono'];
-   }else{
-       $telefono='';
-   }
+//    if(isset($_POST['telefono'])){
+//     $telefono=$_POST['telefono'];
+//    }else{
+//        $telefono='';
+//    }
    
    
     if (!empty($nombre)) {
