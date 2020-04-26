@@ -8,8 +8,8 @@
     background-image: url(../img/invernaderoOpt3.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    /* background-size: cover; */
-    background-size: 100%;
+    background-size: cover;
+    /* background-size: 100%; */
     background-attachment: fixed;
 }
 
