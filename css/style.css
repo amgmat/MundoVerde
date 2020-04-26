@@ -5,10 +5,11 @@
 }
 
 .pagina-i {
-    background-image: url(../img/invernadero.jpg);
+    background-image: url(../img/invernaderoOpt3.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: 100%;
     background-attachment: fixed;
 }
 
@@ -30,11 +31,11 @@
 }
 
 body {
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-position: center;
-    /* background-size: cover; */
+    background-size: cover;
     /* background-size: 100% 100%; */
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -1107,7 +1108,7 @@ footer .redes-sociales h4 {
 
 @media screen and (max-width: 600px) {
     .pagina-i {
-        background-image: url(../img/sendero.jpg);
+        background-image: url(../img/senderoOpt.jpg);
         background-position: center;
         background-size: 120%;
     }
