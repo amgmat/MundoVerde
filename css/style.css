@@ -50,27 +50,37 @@ header {
     z-index: 1000;
 }
 
-header .datosE ul,
-header .datosD ul {
-    text-align: center;
-    margin: 5px 0px;
+header .datosD {
+    text-align: right;
+    padding: 0px 30px;
+    /* margin: 0px 5px; */
 }
 
-header .datosE li {
-    display: inline;
-    margin: 0px 80px;
-    color: rgba(28, 201, 4, 1);
-    font-size: 17px;
-}
-
-header .datosD li,
-header .datosD li a {
-    color: rgba(28, 201, 4, 1);
-}
-
-header .datosD ul {
+header .datosD .telefono,
+header .datosD2 {
     display: none;
 }
+
+header .datosD li {
+    color: rgba(28, 201, 4, 1);
+    list-style: none;
+}
+
+header .datosD li {
+    font-size: 18px;
+    color: rgba(28, 201, 4, 1);
+}
+
+header .datosD li:hover {
+    color: rgba(28, 201, 4, 1);
+    text-decoration: none;
+    cursor: default;
+}
+
+
+/* header .datosD ul {
+    display: none;
+} */
 
 
 /* header .datosD li a:hover {
@@ -80,7 +90,7 @@ header .datosD ul {
 .menu {
     width: 100%;
     max-width: 1300px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -113,6 +123,20 @@ header .datosD ul {
 .menu2 a {
     font-size: 20px;
     color: rgba(28, 201, 4, 1);
+}
+
+.menu .telefono {
+    color: rgba(28, 201, 4, 1);
+}
+
+.menu .telefono a {
+    font-size: 18px;
+}
+
+.menu .telefono a:hover {
+    color: rgba(28, 201, 4, 1);
+    text-decoration: none;
+    cursor: default;
 }
 
 .menu .enlaces {
@@ -238,7 +262,7 @@ header .datosD ul {
     justify-content: center;
     -ms-align-items: center;
     align-items: center;
-    padding-left: 80px;
+    padding-right: 40px;
     /* padding-top: 20px; */
 }
 
@@ -960,6 +984,34 @@ footer .redes-sociales h4 {
     background: #f1395c;
 }
 
+@media screen and (max-width:1300px) {
+    header .datosD {
+        padding: 0px 10px;
+    }
+    .menu .telefono a {
+        font-size: 16px;
+    }
+    header .datosD li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .nombre {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .nombre {
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+    .nombre img {
+        width: 280px;
+    }
+}
+
 @media screen and (max-width:1000px) {
     .nombre img {
         width: 260px;
@@ -967,6 +1019,9 @@ footer .redes-sociales h4 {
 }
 
 @media screen and (max-width:982px) {
+    .nombre img {
+        width: 240px;
+    }
     .productos .bloque1 img {
         height: 163px;
     }
@@ -979,13 +1034,16 @@ footer .redes-sociales h4 {
 }
 
 @media screen and (max-width:950px) {
+    .nombre img {
+        width: 230px;
+    }
     .menu .logo {
         display: inline-block;
         margin-right: 1em;
         padding: 10px 0;
     }
     .menu .enlaces a {
-        padding: 20px 2px;
+        padding: 20px 1px;
         text-align: center;
         font-size: 1em;
     }
@@ -1000,15 +1058,41 @@ footer .redes-sociales h4 {
     header {
         padding-bottom: 15px;
     }
+    header .telefono {
+        display: none;
+    }
+    header .datosD ul {
+        display: none;
+    }
+    header .datosD2 {
+        display: inline;
+    }
+    header .datosD2 ul {
+        display: inline;
+        text-align: center;
+    }
+    header .datosD2 li {
+        color: rgba(28, 201, 4, 1);
+        list-style: none;
+    }
+    header .datosD2 li a {
+        font-size: 16px;
+        color: rgba(28, 201, 4, 1);
+    }
+    header .datosD2 li a:hover {
+        color: rgba(28, 201, 4, 1);
+        text-decoration: none;
+        cursor: default;
+    }
     .menu .btn-menu {
         margin-top: -5px;
     }
-    header .datosE ul {
+    /* header .datosE ul {
         margin: 4px 0px;
     }
     header .datosE li {
         margin: 0px 40px;
-    }
+    } */
     .menu .logo {
         display: inline-block;
         margin-right: 3em;
@@ -1110,7 +1194,7 @@ footer .redes-sociales h4 {
     .pagina-i {
         background-image: url(../img/senderoOpt.jpg);
         background-position: center;
-        background-size: 120%;
+        background-size: 110%;
     }
     .pagina-c {
         background-image: url(../img/tunel-s.jpg);
@@ -1137,15 +1221,14 @@ footer .redes-sociales h4 {
     header {
         padding: 15px 5px 0 0;
     }
-    header .datosE ul {
+    /* header .datosE ul {
         display: none;
-    }
-    header .datosD ul {
-        display: inline;
+    } */
+    header .datosD2 ul {
         margin: 3px 0px;
         list-style: none;
     }
-    header .datosD li {
+    header .datosD2 li {
         margin: 0px 30px;
     }
     .nombre {
@@ -1374,7 +1457,7 @@ footer .redes-sociales h4 {
     .pagina-i {
         background-size: auto 110%;
     }
-    header .datosD li {
+    header .datosD2 li a {
         font-size: 14.5px;
     }
     .nombre img {
@@ -1473,8 +1556,8 @@ footer .redes-sociales h4 {
 }
 
 @media screen and (max-width: 350px) {
-    header .datosD li {
-        font-size: 13px;
+    header .datosD2 li a {
+        font-size: 12.5px;
     }
     .nombre {
         padding-left: 50px;
