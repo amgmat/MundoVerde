@@ -57,7 +57,9 @@ header .datosD {
     /* margin: 0px 5px; */
 }
 
-header .datosD .telefono,
+
+/* header .datosD .telefono, */
+
 header .datosD2 {
     display: none;
 }
@@ -1068,25 +1070,22 @@ footer .redes-sociales h4 {
 }
 
 @media screen and (max-width:900px) {
-    /* header {
-        padding-bottom: 15px;
-    } */
-    header .telefono {
-        display: none;
-    }
-    header .datosD ul {
+    header .telefono,
+    header .datosD {
         display: none;
     }
     header .datosD2 {
         display: inline;
-        /* margin: 0 5px; */
+        text-align: center;
     }
     header .datosD2 ul {
-        display: inline;
-        text-align: center;
-        margin: 5px;
+        margin: 10px;
+        display: flex;
+        justify-content: space-between;
     }
     header .datosD2 li {
+        padding: 0 20px;
+        display: inline-block;
         color: rgba(28, 201, 4, 1);
         list-style: none;
     }
@@ -1105,20 +1104,11 @@ footer .redes-sociales h4 {
     .menu .btn-menu {
         margin-top: -5px;
     }
-    /* header .datosE ul {
-        margin: 4px 0px;
-    }
-    header .datosE li {
-        margin: 0px 40px;
-    } */
     .menu .logo {
         display: inline-block;
         margin-right: 3em;
         padding: 10px 0 5px 0;
     }
-    /* .menu .enlaces {
-        margin-top: -10px;
-    } */
     .menu .enlaces {
         margin-top: 0px;
     }
@@ -1248,13 +1238,10 @@ footer .redes-sociales h4 {
         background-attachment: fixed;
     }
     header {
-        padding: 15px 5px 0 0;
+        padding: 0;
     }
-    /* header .datosE ul {
-        display: none;
-    } */
     header .datosD2 ul {
-        margin: 20px 10px 10px 10px;
+        /* margin: 5px; */
         list-style: none;
     }
     /* header .datosD2 li {
@@ -1447,9 +1434,16 @@ footer .redes-sociales h4 {
 }
 
 @media screen and (max-width:500px) {
-    header {
+    /* header {
         padding: 10px;
+    } */
+    header .datosD2 ul {
+        display: block;
+        text-align: center;
     }
+    /* header.datosD2 li {
+        text-align: right;
+    } */
     .menu img {
         width: 100px;
     }
@@ -1498,16 +1492,6 @@ footer .redes-sociales h4 {
         left: 10%;
         padding: 10px 2px;
     }
-    /* .menu2 .enlaces {
-        text-align: justify;
-        padding: 10px 2px;
-    }
-    .menu2 {
-        padding: 10px 0;
-    }
-    .menu2 a {
-        font-size: 20px;
-    } */
     .menu .enlaces a {
         padding: 2px;
     }
@@ -1548,7 +1532,7 @@ footer .redes-sociales h4 {
         top: 45%;
     }
     .servicios {
-        padding-top: 60px;
+        padding-top: 95px;
         padding-bottom: 20px;
         width: 90%;
     }
