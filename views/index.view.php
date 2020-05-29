@@ -36,26 +36,53 @@
 <body>
     <div class="pagina-i">
         <header id="header">
+
             <nav class="menu">
                 <div class="logo">
-                    <a href="index.html"><img src="img/mundo-verde.jpeg" width="170px" alt=""></a>
+                    <a href="index.html"><img loading="lazy" src="img/mundo-verde.jpeg" width="170px" alt=""></a>
                     <a href="#" class="btn-menu" id="btn-menu"><i class="fa fa-bars"></i></a>
                 </div>
 
-                <div class="nombre" id="nombre">
-                    <a href="index.php">
-                        <svg><rect></rect></svg>
-                        <img src="img/mundoVerde.jpeg" alt=""></a>
+                <div class="telefono">
+                    <strong><i class="fa fa-phone" aria-hidden="true"></i>
+                    <a href="tel:5574287773" alt="Llamanos"> 5574287773</a>
+                </strong>
+                </div>
 
+                <div class="nombre" id="nombre">
+                    <a href="index.html">
+                        <svg><rect></rect></svg>
+                        <img loading="lazy" src="img/mundoVerde.jpeg" alt=""></a>
                 </div>
 
                 <div class="enlaces" id="enlaces">
-                    <a href="index.php"><strong>Inicio</strong></a>
-                    <a href="contacto.php"><strong>Contacto</strong></a>
-                    <a href="servicios.php"><strong>Servicios</strong></a>
-                    <a href="nosotros.php"><strong>Nosotros</strong></a>
+                    <a href="index.html"><strong>Inicio</strong></a>
+                    <a href="contacto.html"><strong>Contacto</strong></a>
+                    <a href="servicios.html"><strong>Servicios</strong></a>
+                    <a href="acerca-de.html"><strong>Nosotros</strong></a>
+
                 </div>
             </nav>
+
+            <div class="datosD">
+                <ul>
+                    <li>
+                        <strong><i class="fa fa-envelope-o" aria-hidden="true"> </i></strong> <img src="img/correo-mv.png" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="datosD2">
+                <ul>
+                    <li><strong><i class="fa fa-phone" aria-hidden="true"></i>
+                        <a href="tel:5574287773" alt="Llamanos"> 5574287773</a></strong>
+                    </li>
+                    <li>
+                        <strong><i class="fa fa-envelope-o" aria-hidden="true"> </i></strong> <img src="img/correo-mv.png" alt="">
+                        <!-- <strong><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        informacion@mundoverdemv.com.mx</strong> -->
+                    </li>
+                </ul>
+            </div>
 
         </header>
 
@@ -103,7 +130,7 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="py-4">
-                        <img src="img/foco.jpeg" alt="">
+                        <img loading="lazy" src="img/focoOpt.jpeg" alt="">
                         <h3 class="pt-4 titulo">Diseñamos</h3>
                         <p>Jardines que se adecuen a sus necesidades plasmando la idea de su proyecto con la mejor calidad.</p>
                     </div>
@@ -113,7 +140,7 @@
             <div class="row"> -->
                 <div class="col-sm-4">
                     <div class="py-4">
-                        <img src="img/macetas-plantas.jpeg" alt="">
+                        <img loading="lazy" src="img/macetas-plantasOpt.jpeg" alt="">
                         <h3 class="pt-4 titulo">Personalizamos</h3>
                         <p>Cada proyecto de nuestros clientes de forma rápida y eficiente.</p>
                     </div>
@@ -123,7 +150,7 @@
             <div class="row"> -->
                 <div class="col-sm-4">
                     <div class="py-4">
-                        <img src="img/plantas.jpeg" alt="">
+                        <img loading="lazy" src="img/plantasOpt.jpeg" alt="">
                         <h3 class="pt-4 titulo">Resolvemos</h3>
                         <p>Contamos con expertos en los diversos servicios y productos que manejamos, volviéndonos la mejor opción para llevar a cabo sus necesidades.</p>
                     </div>
@@ -153,5 +180,6 @@
     <script src="js/headroom.min.js"></script>
 
 </body>
+
 
 </html>

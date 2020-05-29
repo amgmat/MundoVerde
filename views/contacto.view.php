@@ -18,74 +18,85 @@
 
 <body class="pagina-c">
 
-<header id="header">
+    <header id="header">
+
         <nav class="menu">
             <div class="logo">
-                <a href="index.php"><img src="img/mundo-verde.jpeg" width="170px" alt=""></a>
+                <a href="index.html"><img loading="lazy" src="img/mundo-verde.jpeg" width="170px" alt=""></a>
                 <a href="#" class="btn-menu" id="btn-menu"><i class="fa fa-bars"></i></a>
             </div>
 
+            <div class="telefono">
+                <strong><i class="fa fa-phone" aria-hidden="true"></i>
+                <a href="tel:5574287773" alt="Llamanos"> 5574287773</a>
+            </strong>
+            </div>
+
             <div class="nombre" id="nombre">
-                <a href="index.php">
+                <a href="index.html">
                     <svg><rect></rect></svg>
-                    <img src="img/mundoVerde.jpeg" alt=""></a>
+                    <img loading="lazy" src="img/mundoVerde.jpeg" alt=""></a>
 
             </div>
 
             <div class="enlaces" id="enlaces">
-                <a href="index.php"><strong>Inicio</strong></a>
-                <a href="contacto.php"><strong>Contacto</strong></a>
-                <a href="servicios.php"><strong>Servicios</strong></a>
-                <a href="nosotros.php"><strong>Nosotros</strong></a>
+                <a href="index.html"><strong>Inicio</strong></a>
+                <a href="contacto.html"><strong>Contacto</strong></a>
+                <a href="servicios.html"><strong>Servicios</strong></a>
+                <a href="acerca-de.html"><strong>Nosotros</strong></a>
             </div>
         </nav>
+
+        <div class="datosD">
+            <ul>
+                <!-- <li class="telefono"><i class="fa fa-phone" aria-hidden="true"></i>
+                    <a href="tel:5574287773" alt="Llamanos"> 5574287773</a>
+                </li> -->
+                <li><strong><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    informacion@mundoverdemv.com.mx</strong>
+                </li>
+            </ul>
+        </div>
+        <div class="datosD2">
+            <ul>
+                <li><strong><i class="fa fa-phone" aria-hidden="true"></i>
+                    <a href="tel:5574287773" alt="Llamanos"> 5574287773</a></strong>
+                </li>
+                <li>
+                    <strong><i class="fa fa-envelope-o" aria-hidden="true"> </i></strong> <img src="img/correo-mv.png" alt="">
+
+                </li>
+            </ul>
+        </div>
 
     </header>
 
     <section class="contacto">
         <div class="contenedor">
-        <div class="aviso">
-           <?php if (!empty($errores)): ?>
-	            <div class="alert error">
-	               <?php echo $errores ?>
-	            </div>
-	       <?php elseif ($enviado): ?>
-	       	<div class="alert success">
-	       		<p>Enviado Correctamente</p>
-	       	</div>
-	       <?php endif ?>
-        </div>
             <h2 class="titulo">Contacto</h2>
-            <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" class="formulario">           
-            
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" placeholder="Nombre"
-                value="<?php if(!$enviado && isset($nombre)) echo $nombre ?>" id="nombre">
+            <form action="" class="formulario">
+                <label for="">Nombre</label>
+                <input type="text" name="nombre" placeholder="Nombre">
                 <br>
 
-                <label for="apellido">Apellidos</label>
-                <input type="text" name="apellido" placeholder="Apellidos" 
-                value="<?php if(!$enviado && isset($apellido)) echo $apellido ?>" id="apellido">
+                <label for="">Apellidos</label>
+                <input type="text" placeholder="Apellidos">
                 <br>
 
-                <label for="correo">Correo</label>
-                <input type="email" name="correo" placeholder="Correo" 
-                value="<?php if(!$enviado && isset($correo)) echo $correo ?>" id="correo">
+
+                <label for="">Correo</label>
+                <input type="email" name="correo" placeholder="Correo">
                 <br>
 
-                <label for="mensaje">Mensaje</label>
-                <textarea name="mensaje" placeholder="Mensaje" id="mensaje" placeholder="Mensaje: ">
-                <?php if(!$enviado && isset($mensaje)) echo $mensaje ?>
-                </textarea>
+
+                <label for="">Teléfono</label>
+                <input type="number" placeholder="Teléfono(Opcional)">
                 <br>
 
-                <label for="telefono">Teléfono</label>
-                <input type="number" name="telefono" placeholder="Teléfono(Opcional)" id="telefono">
-                <?php if(!$enviado && isset($telefono)) echo $telefono ?>
+                <textarea name="Mensaje" placeholder="Mensaje"></textarea>
                 <br>
-                
 
-                <input type="submit" name="submit" value="Enviar" id='Enviar' >
+                <input type="submit" value="Enviar">
 
             </form>
         </div>
@@ -121,7 +132,7 @@
         </div> -->
 
         <div class="copy">
-            <p>&copy; copyright 2019</p>
+            <p>&copy; copyright 2020</p>
         </div>
 
 

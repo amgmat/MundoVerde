@@ -18,26 +18,55 @@
 <body>
     <div class="pagina-s">
         <header id="header">
+
             <nav class="menu">
                 <div class="logo">
-                    <a href="index.html"><img src="img/mundo-verde.jpeg" width="170px" alt=""></a>
+                    <a href="index.html"><img loading="lazy" src="img/mundo-verde.jpeg" width="170px" alt=""></a>
                     <a href="#" class="btn-menu" id="btn-menu"><i class="fa fa-bars"></i></a>
                 </div>
 
+                <div class="telefono">
+                    <strong><i class="fa fa-phone" aria-hidden="true"></i>
+                    <a href="tel:5574287773" alt="Llamanos"> 5574287773</a>
+                </strong>
+                </div>
+
                 <div class="nombre" id="nombre">
-                    <a href="index.php">
+                    <a href="index.html">
                         <svg><rect></rect></svg>
-                        <img src="img/mundoVerde.jpeg" alt=""></a>
+                        <img loading="lazy" src="img/mundoVerde.jpeg" alt=""></a>
 
                 </div>
 
                 <div class="enlaces" id="enlaces">
-                    <a href="index.php"><strong>Inicio</strong></a>
-                    <a href="contacto.php"><strong>Contacto</strong></a>
-                    <a href="servicios.php"><strong>Servicios</strong></a>
-                    <a href="nosotros.php"><strong>Nosotros</strong></a>
+                    <a href="index.html"><strong>Inicio</strong></a>
+                    <a href="contacto.html"><strong>Contacto</strong></a>
+                    <a href="servicios.html"><strong>Servicios</strong></a>
+                    <a href="acerca-de.html"><strong>Nosotros</strong></a>
                 </div>
             </nav>
+
+            <div class="datosD">
+                <ul>
+                    <!-- <li class="telefono"><i class="fa fa-phone" aria-hidden="true"></i>
+                        <a href="tel:5574287773" alt="Llamanos"> 5574287773</a>
+                    </li> -->
+                    <li><strong><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        informacion@mundoverdemv.com.mx</strong>
+                    </li>
+                </ul>
+            </div>
+            <div class="datosD2">
+                <ul>
+                    <li><strong><i class="fa fa-phone" aria-hidden="true"></i>
+                        <a href="tel:5574287773" alt="Llamanos"> 5574287773</a></strong>
+                    </li>
+                    <li>
+                        <strong><i class="fa fa-envelope-o" aria-hidden="true"> </i></strong> <img src="img/correo-mv.png" alt="">
+
+                    </li>
+                </ul>
+            </div>
 
         </header>
 
@@ -99,7 +128,7 @@
             <div class="row">
                 <div class="col-12 col-sm-6 pt-3">
 
-                    <img src="img/jardinera2-a.jpeg" alt="">
+                    <img loading="lazy" src="img/jardinera2-a.jpeg" alt="">
                     <!-- <div class="py-1">
                         <h3>Antes</h3>
                     </div> -->
@@ -110,7 +139,7 @@
 
 
                 <div class="col-12 col-sm-6 pt-3">
-                    <img src="img/jardinera2-d.jpeg" alt="">
+                    <img loading="lazy" src="img/jardinera2-d.jpeg" alt="">
                     <!-- <div class="py-1">
                         <h3>Después</h3>
                     </div> -->
@@ -131,7 +160,7 @@
             <div class="row">
                 <div class="col-12 col-md-6">
 
-                    <img src="img/pared-a2.jpeg" alt="">
+                    <img loading="lazy" src="img/pared-a2.jpeg" alt="">
                     <div class="py-1">
                         <h3>Antes</h3>
                     </div>
@@ -141,7 +170,7 @@
                 </div>
 
                 <div class="col-12 col-md-6">
-                    <img src="img/pared-d2.jpeg" alt="">
+                    <img loading="lazy" src="img/pared-d2.jpeg" alt="">
                     <div class="py-1">
                         <h3>Después</h3>
                     </div>
@@ -150,7 +179,7 @@
 
                 <div class="col-12 col-md-6">
 
-                    <img src="img/paredm-a2.jpeg" alt="">
+                    <img loading="lazy" src="img/paredm-a2.jpeg" alt="">
                     <div class="py-1">
                         <h3>Antes</h3>
                     </div>
@@ -160,7 +189,7 @@
                 </div>
 
                 <div class="col-12 col-md-6">
-                    <img src="img/paredm-d2.jpeg" alt="">
+                    <img loading="lazy" src="img/paredm-d2.jpeg" alt="">
                     <div class="py-1">
                         <h3>Después</h3>
                     </div>
@@ -181,14 +210,14 @@
             <div class="row">
                 <div class="col-12 col-md-6">
 
-                    <img src="img/jardin-a.jpeg" alt="">
+                    <img loading="lazy" src="img/jardin-a.jpeg" alt="">
                     <div class="py-1">
                         <h3>Antes</h3>
                     </div>
                 </div>
 
                 <div class="col-12 col-md-6">
-                    <img src="img/jardin-d.jpg" alt="">
+                    <img loading="lazy" src="img/jardin-d.jpg" alt="">
                     <div class="py-1">
                         <h3>Después</h3>
                     </div>
@@ -236,14 +265,14 @@
             <div class="row">
                 <div class="col-12 col-sm-4 pt-3">
 
-                    <img src="img/corredor.jpeg" alt="">
+                    <img loading="lazy" src="img/corredor.jpeg" alt="">
                     <!-- <div class="py-1">
                         <h3>Antes</h3>
                     </div> -->
                 </div>
 
                 <div class="col-12 col-sm-4 pt-3">
-                    <img src="img/1-planta.jpeg" alt="">
+                    <img loading="lazy" src="img/1-planta.jpeg" alt="">
                     <!-- <div class="py-1">
                         <h3>Después</h3>
                     </div> -->
@@ -251,7 +280,7 @@
 
                 <div class="col-12 col-sm-4 pt-3">
 
-                    <img src="img/tres-plantas.jpeg" alt="">
+                    <img loading="lazy" src="img/tres-plantas.jpeg" alt="">
                     <!-- <div class="py-1">
                         <h3>Antes</h3>
                     </div> -->
@@ -270,7 +299,7 @@
             <div class="row">
                 <div class="col-12 col-sm-6 pt-3">
 
-                    <img src="img/construyendo-a2.jpeg" alt="">
+                    <img loading="lazy" src="img/construyendo-a2.jpeg" alt="">
                     <!-- <div class="py-1">
                         <h3>Antes</h3>
                     </div> -->
@@ -278,7 +307,7 @@
 
 
                 <div class="col-12 col-sm-6 pt-3">
-                    <img src="img/jardin-d.jpeg" alt="">
+                    <img loading="lazy" src="img/jardin-d.jpeg" alt="">
                     <!-- <div class="py-1">
                         <h3>Después</h3>
                     </div> -->
@@ -320,7 +349,7 @@
             <div class="row py-4 ">
                 <div class="col-12 col-sm-6 col-lg-3 mb-4">
                     <div class="card bloque1">
-                        <img class="card-img-top" src="img/lustrador.png" alt="">
+                        <img loading="lazy" class="card-img-top" src="img/lustrador.png" alt="">
 
                         <div class="card-body">
                             <h3 class="card-title">Floraphil</h3>
@@ -333,7 +362,7 @@
 
                 <div class="col-12 col-sm-6 col-lg-3 mb-4">
                     <div class="card bloque1">
-                        <img class="card-img-top" src="img/insecticida-formition.png" alt="">
+                        <img loading="lazy" class="card-img-top" src="img/insecticida-formition.png" alt="">
 
 
                         <div class="card-body">
@@ -347,7 +376,7 @@
 
                 <div class="col-12 col-sm-6 col-lg-3 mb-4">
                     <div class="card bloque1">
-                        <img class="card-img-top" src="img/alimento-rosas.png" alt="">
+                        <img loading="lazy" class="card-img-top" src="img/alimento-rosas.png" alt="">
 
                         <div class="card-body">
                             <h3 class="card-title">Floraphil</h3>
@@ -360,7 +389,7 @@
 
                 <div class="col-12 col-sm-6 col-lg-3 mb-4">
                     <div class="card bloque1">
-                        <img class="card-img-top" src="img/herbecida.png" alt="">
+                        <img loading="lazy" class="card-img-top" src="img/herbecida.png" alt="">
 
                         <div class="card-body">
                             <h3 class="card-title">Faena</h3>
@@ -375,7 +404,7 @@
 
                 <div class="col-12 col-sm-6 col-lg-3 mb-4">
                     <div class="card bloque2">
-                        <img class="card-img-top" src="img/fitoterra.png" alt="">
+                        <img loading="lazy" class="card-img-top" src="img/fitoterra.png" alt="">
 
                         <div class="card-body">
                             <h3 class="card-title">Fitoterra D</h3>
@@ -388,7 +417,7 @@
 
                 <div class="col-12 col-sm-6 col-lg-3 mb-4">
                     <div class="card bloque2">
-                        <img class="card-img-top" src="img/foley.png" alt="">
+                        <img loading="lazy" class="card-img-top" src="img/foley.png" alt="">
 
                         <div class="card-body">
                             <h3 class="card-title">Foley</h3>
@@ -403,7 +432,7 @@
 
                 <div class="col-12 col-sm-6 col-lg-3 mb-4">
                     <div class="card bloque2">
-                        <img class="card-img-top" src="img/molusquicida.png" alt="">
+                        <img loading="lazy" class="card-img-top" src="img/molusquicida.png" alt="">
 
                         <div class="card-body">
                             <h3 class="card-title">Tapps'o</h3>
@@ -417,7 +446,7 @@
 
                 <div class="col-12 col-sm-6 col-lg-3 mb-4">
                     <div class="card bloque2">
-                        <img class="card-img-top" src="img/insecticida.png" alt="">
+                        <img loading="lazy" class="card-img-top" src="img/insecticida.png" alt="">
 
                         <div class="card-body">
                             <h3 class="card-title">Terramicina</h3>
@@ -431,7 +460,7 @@
 
                 <div class="col-12 col-sm-6 col-lg-3 mb-4">
                     <div class="card bloque3">
-                        <img class="card-img-top" src="img/nitrofoska.png" alt="">
+                        <img loading="lazy" class="card-img-top" src="img/nitrofoska.png" alt="">
                         <div class="card-body">
                             <h3 class="card-title">Nitrofoska</h3>
                             <p class="card-text h4">Fertilizante</p>
@@ -443,7 +472,7 @@
 
                 <div class="col-12 col-sm-6 col-lg-3 mb-4">
                     <div class="card bloque3">
-                        <img class="card-img-top" src="img/diazudin.png" alt="">
+                        <img loading="lazy" class="card-img-top" src="img/diazudin.png" alt="">
 
                         <div class="card-body">
                             <h3 class="card-title">Diazudin</h3>
@@ -456,7 +485,7 @@
 
                 <div class="col-12 col-sm-6 col-lg-3 mb-4">
                     <div class="card bloque3">
-                        <img class="card-img-top" src="img/fertilizante.png" alt="">
+                        <img loading="lazy" class="card-img-top" src="img/fertilizante.png" alt="">
 
                         <div class="card-body">
                             <h3 class="card-title">Pelicano</h3>

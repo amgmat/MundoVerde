@@ -1211,7 +1211,7 @@ footer .redes-sociales h4 {
 @media screen and (max-width: 600px) {
     .pagina-i {
         background-image: url(../img/senderoOpt.jpg);
-        background-position: center;
+        background-position: top;
         background-size: 110%;
         /* background-size: cover; */
     }
@@ -1229,14 +1229,9 @@ footer .redes-sociales h4 {
         background-image: url(../img/garden-p.jpg);
         background-size: 120%;
     }
-    body {
-        background-repeat: no-repeat;
-        background-position: center;
-        /* background-size: 100% 100%; */
-        /* background-size: cover; */
-        /* background-size: 100%; */
-        background-attachment: fixed;
-    }
+    /* body {
+        position: absolute;
+    } */
     header {
         padding: 0;
     }
